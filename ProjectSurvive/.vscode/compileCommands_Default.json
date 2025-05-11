@@ -1,0 +1,42 @@
+[
+	{
+		"file": "C:\\Users\\scott\\Desktop\\GAM312Survival\\ProjectSurvive\\Source\\ProjectSurvive\\PlayerChar.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\scott\\Desktop\\GAM312Survival\\ProjectSurvive\\.vscode\\compileCommands_Default\\ProjectSurvive.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\scott\\Desktop\\GAM312Survival\\ProjectSurvive\\Source\\ProjectSurvive\\PlayerChar.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\scott\\Desktop\\GAM312Survival\\ProjectSurvive\\.vscode\\compileCommands_Default\\ProjectSurvive.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\scott\\Desktop\\GAM312Survival\\ProjectSurvive\\Source\\ProjectSurvive\\ProjectSurvive.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\scott\\Desktop\\GAM312Survival\\ProjectSurvive\\.vscode\\compileCommands_Default\\ProjectSurvive.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\scott\\Desktop\\GAM312Survival\\ProjectSurvive\\Source\\ProjectSurvive\\ProjectSurvive.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\scott\\Desktop\\GAM312Survival\\ProjectSurvive\\.vscode\\compileCommands_Default\\ProjectSurvive.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\scott\\Desktop\\GAM312Survival\\ProjectSurvive\\Source\\ProjectSurvive\\ProjectSurvive.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\scott\\Desktop\\GAM312Survival\\ProjectSurvive\\.vscode\\compileCommands_Default\\ProjectSurvive.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	}
+]
