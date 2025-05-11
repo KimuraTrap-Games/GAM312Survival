@@ -4,7 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Camera/CameraComponent.h"
 #include "PlayerChar.generated.h"
+
 
 UCLASS()
 class PROJECTSURVIVE_API APlayerChar : public ACharacter
@@ -26,4 +28,23 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	UFUNCTION()
+	void MoveForward(float axisValue);
+
+	UFUNCTION()
+	void MoveRight(float axisValue);
+
+	UFUNCTION()
+	void StartJump();
+
+	UFUNCTION()
+	void StopJump();
+
+	UFUNCTION()
+	void FindObject();
+
+	UPROPERTY(VisibleAnywhere)
+	UCameraComponent* PlayerCamComp;
+
 };
+
