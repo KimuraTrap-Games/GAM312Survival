@@ -59,6 +59,21 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Stats")
 	float Stamina = 100.0f;
 
+	UPROPERTY(EditAnywhere, Category = "Resources")
+	int wood;
+
+	UPROPERTY(EditAnywhere, Category = "Resources")
+	int stone;
+
+	UPROPERTY(EditAnywhere, Category = "Resources")
+	int berry;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Resources")
+	TArray<int> ResourcesArray;
+
+	UPROPERTY(EditAnywhere, Category = "Resources")
+	TArray<FString> ResourcesNameArray;
+
 	UFUNCTION(BlueprintCallable)
 	void SetHealth(float amount);
 
