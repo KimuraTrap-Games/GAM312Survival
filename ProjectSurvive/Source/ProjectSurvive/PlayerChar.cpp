@@ -6,7 +6,7 @@
 // Sets default values
 APlayerChar::APlayerChar()
 {
- 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	PlayerCamComp = CreateDefaultSubobject<UCameraComponent>(TEXT("Firest Person Cam"));
 
@@ -22,7 +22,10 @@ APlayerChar::APlayerChar()
 void APlayerChar::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	FTimerHandle StatsTimerHandle;
+	GetWorld()->GetTimerManager().SetTimer(StatsTimerHandle, this, &APlayerChar::DecreaseStats, 2.0f, true);
+
 }
 
 // Called every frame
@@ -69,5 +72,62 @@ void APlayerChar::StopJump()
 
 void APlayerChar::FindObject()
 {
+}
+
+void APlayerChar::SetHealth(float amount)
+{
+	if (Health + amount < 100)
+	{
+		Health = Health + amount;
+	}
+}
+
+void APlayerChar::SetHunger(float amount)
+{
+	if (Hunger + amount < 100)
+	{
+		Hunger = Hunger + amount;
+	}
+}
+
+void APlayerChar::SetThirst(float amount)
+{
+	if (Thirst + amount < 100)
+	{
+		Thirst = Thirst + amount;
+	}
+}
+
+void APlayerChar::SetStamina(float amount)
+{
+	if (Stamina + amount < 100)
+	{
+		Stamina = Stamina + amount;
+	}
+}
+
+void APlayerChar::DecreaseStats()
+{
+	if (Hunger > 0)
+	{
+		SetHunger(-1.0f);
+	}
+
+	if (Thirst > 0)
+	{
+		SetThirst(-1.0f);
+	}
+
+	SetStamina(10.0f);
+
+	if (Hunger <= 0)
+	{
+		SetHealth(-3.0f);
+	}
+
+	if (Thirst <= 0)
+	{
+		SetHealth(-3.0f);
+	}
 }
 

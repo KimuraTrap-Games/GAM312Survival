@@ -1683,3 +1683,2704 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.05.22-12.28.42:455][763]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.05.22-12.28.42:455][763]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2730.176270, Update Interval: 353.549011
 [2025.05.22-12.29.51:218][159]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2025.05.22-12.30.38:516][372]Running C:/Program Files/Epic Games/UE_5.5/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="C:/Users/scott/Desktop/GAM312Survival/ProjectSurvive/ProjectSurvive.uproject" -game -rocket -progress
+[2025.05.22-12.30.38:623][372]Using bundled DotNet SDK version: 8.0.300
+[2025.05.22-12.30.38:623][372]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="C:/Users/scott/Desktop/GAM312Survival/ProjectSurvive/ProjectSurvive.uproject" -game -rocket -progress
+[2025.05.22-12.30.38:824][372]Log file: C:\Users\scott\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2025.05.22-12.30.39:024][372]
+[2025.05.22-12.30.39:024][372]Generating VisualStudio2022 project files:
+[2025.05.22-12.30.39:024][372]Discovering modules, targets and source code for project...
+[2025.05.22-12.30.41:640][372]Binding IntelliSense data...
+[2025.05.22-12.30.44:555][372]Binding IntelliSense data... 100%
+[2025.05.22-12.30.44:555][372]Writing project files...
+[2025.05.22-12.30.46:161][372]Writing project files... 100%
+[2025.05.22-12.30.46:161][372]
+[2025.05.22-12.30.46:161][372]Generating QueryTargets data for editor...
+[2025.05.22-12.30.46:161][372]Total execution time: 7.49 seconds
+[2025.05.22-12.33.33:598][131]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.05.22-12.33.38:608][726]LogLiveCoding: Display:    Creating library C:\Users\scott\Desktop\GAM312Survival\ProjectSurvive\Binaries\Win64\UnrealEditor-ProjectSurvive.patch_0.lib and object C:\Users\scott\Desktop\GAM312Survival\ProjectSurvive\Binaries\Win64\UnrealEditor-ProjectSurvive.patch_0.exp
+[2025.05.22-12.33.38:744][730]LogClass: UPackage /Script/ProjectSurvive Reload.
+[2025.05.22-12.33.38:744][730]LogClass: UClass PlayerChar Reload.
+[2025.05.22-12.33.38:744][730]LogClass: Could not find existing class PlayerChar in package /Script/ProjectSurvive for reload, assuming new or modified class
+[2025.05.22-12.33.38:744][730]LogClass: Function DecreaseStats is new or belongs to a modified class.
+[2025.05.22-12.33.38:744][730]LogClass: Function FindObject is new or belongs to a modified class.
+[2025.05.22-12.33.38:744][730]LogClass: Function MoveForward is new or belongs to a modified class.
+[2025.05.22-12.33.38:744][730]LogClass: Function MoveRight is new or belongs to a modified class.
+[2025.05.22-12.33.38:744][730]LogClass: Function SetHealth is new or belongs to a modified class.
+[2025.05.22-12.33.38:744][730]LogClass: Function SetHunger is new or belongs to a modified class.
+[2025.05.22-12.33.38:744][730]LogClass: Function SetStamina is new or belongs to a modified class.
+[2025.05.22-12.33.38:744][730]LogClass: Function SetThirst is new or belongs to a modified class.
+[2025.05.22-12.33.38:744][730]LogClass: Function StartJump is new or belongs to a modified class.
+[2025.05.22-12.33.38:744][730]LogClass: Function StopJump is new or belongs to a modified class.
+[2025.05.22-12.33.38:759][730]Re-instancing PlayerChar after reload.
+[2025.05.22-12.33.38:842][730]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.05.22-12.33.39:224][731]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2025.05.22-12.33.39:224][731]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2025.05.22-12.33.49:124][287]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Player/PlayerChar_BP.PlayerChar_BP
+[2025.05.22-12.33.49:124][287]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2025.05.22-12.34.38:626][908]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3086.678711
+[2025.05.22-12.34.39:625][911]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.22-12.34.39:625][911]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3087.345459, Update Interval: 325.194244
+[2025.05.22-12.35.49:536][707]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.05.22-12.35.49:538][707]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/DevMap' took 0.086
+[2025.05.22-12.35.49:538][707]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Player/PlayerChar_BP] ([2] browsable assets)...
+[2025.05.22-12.35.49:539][707]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2025.05.22-12.35.49:604][707]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/Player/PlayerChar_BP.PlayerChar_BP_C]
+[2025.05.22-12.35.49:610][707]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/PlayerChar_BP.PlayerChar_BP]
+[2025.05.22-12.35.49:610][707]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/PlayerChar_BP]
+[2025.05.22-12.35.49:614][707]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Player/PlayerChar_BP_Auto1
+[2025.05.22-12.35.49:615][707]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GAM312Survival/ProjectSurvive/Saved/PlayerChar_BP_Auto18A81D1994D4C77C946F0DA91122FE48F.tmp' to '../../../../../../Users/scott/Desktop/GAM312Survival/ProjectSurvive/Saved/Autosaves/Game/Player/PlayerChar_BP_Auto1.uasset'
+[2025.05.22-12.35.49:616][707]LogFileHelpers: Auto-saving content packages took 0.077
+[2025.05.22-12.40.10:151][550]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3418.208496
+[2025.05.22-12.40.10:251][562]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.22-12.40.10:251][563]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3418.300049, Update Interval: 356.361572
+[2025.05.22-12.40.14:620][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2025.05.22-12.40.15:840][203]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.22-12.40.15:894][203]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/PlayerChar_BP] ([2] browsable assets)...
+[2025.05.22-12.40.15:940][203]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/PlayerChar_BP.PlayerChar_BP]
+[2025.05.22-12.40.15:940][203]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/PlayerChar_BP]
+[2025.05.22-12.40.15:940][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/PlayerChar_BP" FILE="../../../../../../Users/scott/Desktop/GAM312Survival/ProjectSurvive/Content/Player/PlayerChar_BP.uasset" SILENT=true
+[2025.05.22-12.40.15:945][203]LogSavePackage: Moving output files for package: /Game/Player/PlayerChar_BP
+[2025.05.22-12.40.15:945][203]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GAM312Survival/ProjectSurvive/Saved/PlayerChar_BP5D1D16264435226079CBC78BC9B6AA56.tmp' to '../../../../../../Users/scott/Desktop/GAM312Survival/ProjectSurvive/Content/Player/PlayerChar_BP.uasset'
+[2025.05.22-12.40.15:951][203]LogFileHelpers: InternalPromptForCheckoutAndSave took 110.534 ms (total: 222.359 ms)
+[2025.05.22-12.40.15:995][203]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.22-12.40.15:995][203]LogContentValidation: Enabled validators:
+[2025.05.22-12.40.15:995][203]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.22-12.40.15:995][203]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.22-12.40.15:995][203]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.22-12.40.15:995][203]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.22-12.40.15:995][203]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.22-12.40.15:995][203]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.22-12.40.15:995][203]AssetCheck: /Game/Player/PlayerChar_BP Validating asset
+[2025.05.22-12.40.19:080][570]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.22-12.40.19:088][570]LogContentBundle: [DevMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.05.22-12.40.19:088][570]LogWorldPartition: Display: GenerateStreaming for 'DevMap' started...
+[2025.05.22-12.40.19:089][570]LogWorldPartition: Display: GenerateStreaming for 'DevMap' took 1.050 ms (total: 5.047 ms)
+[2025.05.22-12.40.19:091][570]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.22-12.40.19:091][570]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_DevMap
+[2025.05.22-12.40.19:092][570]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001532s)
+[2025.05.22-12.40.19:092][570]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DevMap.DevMap to /Game/UEDPIE_0_DevMap.DevMap (0.001555s)
+[2025.05.22-12.40.19:108][570]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.05.22-12.40.19:117][570]LogChaosDD: Creating Chaos Debug Draw Scene for world DevMap
+[2025.05.22-12.40.19:118][570]LogWorldPartition: ULevel::OnLevelLoaded(DevMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.22-12.40.19:118][570]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.22-12.40.19:118][570]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_DevMap.DevMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.22-12.40.19:118][570]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.22-12.40.19:119][570]LogWorldPartition: Display: WorldPartition initialize took 686 us (total: 31.455 ms)
+[2025.05.22-12.40.19:119][570]LogPlayLevel: PIE: World Init took: (0.002030s)
+[2025.05.22-12.40.19:120][570]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2025.05.22-12.40.19:120][570]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.22-12.40.19:120][570]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.22-12.40.19:120][570]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.22-12.40.19:120][570]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.22-12.40.19:120][570]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.22-12.40.19:120][570]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.22-12.40.19:120][570]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.22-12.40.19:120][570]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.22-12.40.19:120][570]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.22-12.40.19:120][570]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.22-12.40.19:120][570]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.22-12.40.19:122][570]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.22-12.40.19:211][570]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.05.22-12.40.19:211][570]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.22-12.40.19:211][570]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.22-12.40.19:211][570]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.22-12.40.19:212][570]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2025.05.22-12.40.19:212][570]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2025.05.22-12.40.19:214][570]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2025.05.22-12.40.19:214][570]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2025.05.22-12.40.19:214][570]LogInit: FAudioDevice initialized with ID 4.
+[2025.05.22-12.40.19:214][570]LogAudio: Display: Audio Device (ID: 4) registered with world 'DevMap'.
+[2025.05.22-12.40.19:214][570]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2025.05.22-12.40.19:217][570]LogLoad: Game class is 'GAM312_GM_C'
+[2025.05.22-12.40.19:217][570]LogWorld: Bringing World /Game/UEDPIE_0_DevMap.DevMap up for play (max tick rate 0) at 2025.05.22-07.40.19
+[2025.05.22-12.40.19:217][570]LogWorld: Bringing up level for play took: 0.000529
+[2025.05.22-12.40.19:219][570]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2025.05.22-12.40.19:223][570]LogStreaming: Display: FlushAsyncLoading(648,647): 2 QueuedPackages, 0 AsyncPackages
+[2025.05.22-12.40.19:226][570]PIE: Server logged in
+[2025.05.22-12.40.19:227][570]PIE: Play in editor total start time 0.139 seconds.
+[2025.05.22-12.40.19:227][570]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:235][571]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:310][572]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:332][573]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:339][574]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:348][575]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:356][576]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:365][577]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:373][578]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:381][579]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:390][580]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:398][581]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:407][582]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:414][583]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:423][584]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:431][585]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:440][586]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:448][587]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:457][588]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:465][589]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:473][590]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:482][591]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:490][592]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:498][593]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:506][594]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:514][595]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:523][596]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:532][597]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:540][598]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:548][599]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:557][600]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:564][601]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:573][602]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:581][603]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:590][604]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:598][605]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:607][606]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:615][607]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:623][608]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:631][609]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:640][610]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:648][611]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:656][612]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:665][613]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:673][614]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:681][615]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:690][616]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:698][617]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:707][618]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:715][619]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:723][620]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:731][621]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:740][622]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:748][623]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:757][624]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:765][625]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:773][626]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:781][627]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:790][628]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:798][629]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:807][630]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:815][631]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:823][632]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:831][633]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:840][634]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:848][635]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:857][636]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:865][637]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:873][638]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:881][639]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:890][640]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:898][641]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:907][642]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:915][643]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:923][644]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:931][645]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:939][646]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:948][647]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:956][648]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:965][649]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:973][650]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:981][651]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:989][652]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.19:998][653]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:006][654]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:014][655]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:023][656]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:031][657]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:039][658]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:048][659]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:056][660]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:066][661]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:073][662]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:081][663]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:089][664]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:098][665]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:106][666]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:115][667]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:124][668]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:131][669]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:140][670]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:148][671]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:156][672]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:165][673]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:173][674]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:182][675]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:190][676]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:198][677]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:206][678]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:215][679]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:223][680]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:232][681]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:240][682]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:248][683]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:257][684]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:265][685]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:273][686]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:281][687]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:290][688]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:298][689]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:307][690]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:315][691]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:324][692]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:331][693]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:340][694]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:348][695]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:356][696]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:365][697]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:373][698]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:382][699]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:390][700]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:398][701]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:407][702]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:415][703]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:424][704]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:432][705]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:440][706]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:448][707]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:456][708]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:465][709]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:473][710]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:482][711]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:490][712]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:499][713]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:507][714]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:515][715]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:524][716]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:532][717]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:540][718]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:548][719]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:557][720]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:565][721]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:573][722]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:582][723]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:590][724]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:598][725]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:607][726]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:615][727]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:623][728]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:631][729]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:640][730]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:648][731]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:657][732]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:665][733]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:673][734]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:682][735]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:690][736]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:699][737]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:707][738]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:715][739]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:724][740]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:732][741]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:741][742]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:749][743]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:758][744]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:765][745]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:774][746]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:782][747]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:790][748]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:799][749]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:807][750]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:815][751]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:823][752]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:832][753]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:840][754]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:849][755]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:857][756]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:865][757]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:873][758]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:882][759]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:891][760]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:899][761]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:907][762]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:915][763]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:923][764]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:932][765]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:940][766]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:949][767]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:957][768]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:965][769]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:974][770]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:982][771]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:991][772]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.20:999][773]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:007][774]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:015][775]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:023][776]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:032][777]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:040][778]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:049][779]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:057][780]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:065][781]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:073][782]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:082][783]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:091][784]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:099][785]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:107][786]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:115][787]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:124][788]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:132][789]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:140][790]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:149][791]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:157][792]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:165][793]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:174][794]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:181][795]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:190][796]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:198][797]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:207][798]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:215][799]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:223][800]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:232][801]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:240][802]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:248][803]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:257][804]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:265][805]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:273][806]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:281][807]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:290][808]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:298][809]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:307][810]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:315][811]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:323][812]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:331][813]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:340][814]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:348][815]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:357][816]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:365][817]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:373][818]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:382][819]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:390][820]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:398][821]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:406][822]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:415][823]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:423][824]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:432][825]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:440][826]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:448][827]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:457][828]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:465][829]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:473][830]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:482][831]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:490][832]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:498][833]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:507][834]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:515][835]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:524][836]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:532][837]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:540][838]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:548][839]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:557][840]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:565][841]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:573][842]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:582][843]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:590][844]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:599][845]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:607][846]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:615][847]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:624][848]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:632][849]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:640][850]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:648][851]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:657][852]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:665][853]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:673][854]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:681][855]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:690][856]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:698][857]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:706][858]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:715][859]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:723][860]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:731][861]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:740][862]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:748][863]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:756][864]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:765][865]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:773][866]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:782][867]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:790][868]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:799][869]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:807][870]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:815][871]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:823][872]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:831][873]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:840][874]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:848][875]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:856][876]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:865][877]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:873][878]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:882][879]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:890][880]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:898][881]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:906][882]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:915][883]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:923][884]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:932][885]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:940][886]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:948][887]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:957][888]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:965][889]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:973][890]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:982][891]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:990][892]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.21:998][893]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:006][894]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:015][895]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:023][896]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:032][897]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:040][898]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:048][899]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:057][900]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:065][901]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:073][902]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:081][903]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:090][904]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:098][905]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:107][906]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:115][907]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:124][908]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:131][909]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:140][910]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:148][911]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:157][912]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:165][913]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:173][914]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:181][915]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:190][916]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:198][917]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:207][918]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:215][919]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:224][920]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:232][921]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:240][922]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:248][923]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:256][924]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:265][925]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:273][926]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:281][927]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:290][928]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:298][929]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:307][930]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:315][931]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:324][932]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:331][933]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:340][934]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:348][935]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:357][936]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:365][937]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:373][938]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:382][939]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:390][940]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:399][941]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:406][942]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:415][943]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:424][944]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:432][945]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:440][946]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:448][947]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:457][948]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:465][949]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:473][950]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:482][951]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:490][952]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:498][953]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:507][954]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:515][955]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:523][956]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:531][957]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:540][958]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:548][959]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:556][960]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:565][961]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:573][962]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:582][963]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:590][964]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:599][965]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:607][966]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:615][967]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:623][968]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:632][969]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:640][970]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:648][971]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:656][972]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:665][973]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:673][974]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:681][975]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:690][976]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:699][977]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:706][978]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:715][979]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:723][980]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:732][981]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:740][982]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:749][983]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:757][984]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:765][985]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:773][986]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:781][987]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:790][988]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:799][989]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:806][990]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:815][991]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:823][992]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:832][993]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:840][994]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:849][995]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:856][996]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:865][997]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:873][998]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:882][999]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:890][  0]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:899][  1]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:907][  2]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:915][  3]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:924][  4]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:932][  5]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:940][  6]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:949][  7]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:956][  8]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:965][  9]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:973][ 10]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:982][ 11]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:990][ 12]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.22:998][ 13]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:007][ 14]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:015][ 15]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:024][ 16]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:032][ 17]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:040][ 18]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:049][ 19]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:057][ 20]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:065][ 21]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:073][ 22]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:082][ 23]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:090][ 24]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:099][ 25]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:107][ 26]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:115][ 27]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:124][ 28]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:131][ 29]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:140][ 30]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:148][ 31]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:156][ 32]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:165][ 33]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:173][ 34]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:182][ 35]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:190][ 36]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:198][ 37]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:206][ 38]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:215][ 39]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:223][ 40]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:232][ 41]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:240][ 42]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:248][ 43]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:257][ 44]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:265][ 45]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:273][ 46]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:282][ 47]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:291][ 48]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:298][ 49]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:307][ 50]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:315][ 51]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:324][ 52]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:331][ 53]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:341][ 54]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:348][ 55]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:357][ 56]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:365][ 57]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:373][ 58]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:382][ 59]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:390][ 60]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:399][ 61]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:406][ 62]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:415][ 63]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:423][ 64]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:432][ 65]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:440][ 66]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:449][ 67]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:456][ 68]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:465][ 69]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:473][ 70]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:482][ 71]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:490][ 72]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:499][ 73]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:507][ 74]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:515][ 75]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:524][ 76]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:532][ 77]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:541][ 78]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:549][ 79]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:557][ 80]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:565][ 81]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:573][ 82]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:582][ 83]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:590][ 84]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:599][ 85]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:607][ 86]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:615][ 87]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:623][ 88]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:632][ 89]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:640][ 90]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:649][ 91]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:657][ 92]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:665][ 93]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:674][ 94]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:681][ 95]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:690][ 96]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:699][ 97]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:707][ 98]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:715][ 99]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:723][100]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:731][101]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:740][102]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:748][103]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:756][104]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:765][105]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:774][106]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:782][107]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:790][108]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:799][109]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:806][110]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:815][111]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:824][112]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:832][113]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hello
+[2025.05.22-12.40.23:866][113]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.22-12.40.23:866][113]LogWorld: BeginTearingDown for /Game/UEDPIE_0_DevMap
+[2025.05.22-12.40.23:867][113]LogWorld: UWorld::CleanupWorld for DevMap, bSessionEnded=true, bCleanupResources=true
+[2025.05.22-12.40.23:867][113]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.22-12.40.23:867][113]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_DevMap.DevMap
+[2025.05.22-12.40.23:870][113]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.22-12.40.23:874][113]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.22-12.40.23:889][113]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.22-12.40.23:889][113]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2025.05.22-12.40.23:889][113]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.05.22-12.40.23:891][113]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.05.22-12.40.23:897][113]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.05.22-12.40.23:950][115]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2025.05.22-12.40.33:095][169]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.05.22-12.40.34:062][273]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.22-12.40.34:108][273]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/PlayerChar_BP] ([2] browsable assets)...
+[2025.05.22-12.40.34:155][273]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/PlayerChar_BP.PlayerChar_BP]
+[2025.05.22-12.40.34:155][273]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/PlayerChar_BP]
+[2025.05.22-12.40.34:155][273]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/PlayerChar_BP" FILE="../../../../../../Users/scott/Desktop/GAM312Survival/ProjectSurvive/Content/Player/PlayerChar_BP.uasset" SILENT=true
+[2025.05.22-12.40.34:159][273]LogSavePackage: Moving output files for package: /Game/Player/PlayerChar_BP
+[2025.05.22-12.40.34:159][273]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GAM312Survival/ProjectSurvive/Saved/PlayerChar_BP4C8A6AC84DE6E1D395CC76802DC1456F.tmp' to '../../../../../../Users/scott/Desktop/GAM312Survival/ProjectSurvive/Content/Player/PlayerChar_BP.uasset'
+[2025.05.22-12.40.34:166][273]LogFileHelpers: InternalPromptForCheckoutAndSave took 104.558 ms (total: 326.918 ms)
+[2025.05.22-12.40.34:224][273]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.22-12.40.34:224][273]LogContentValidation: Enabled validators:
+[2025.05.22-12.40.34:224][273]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.22-12.40.34:224][273]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.22-12.40.34:224][273]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.22-12.40.34:224][273]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.22-12.40.34:224][273]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.22-12.40.34:224][273]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.22-12.40.34:225][273]AssetCheck: /Game/Player/PlayerChar_BP Validating asset
+[2025.05.22-12.40.36:067][492]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.22-12.40.36:075][492]LogContentBundle: [DevMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.05.22-12.40.36:075][492]LogWorldPartition: Display: GenerateStreaming for 'DevMap' started...
+[2025.05.22-12.40.36:076][492]LogWorldPartition: Display: GenerateStreaming for 'DevMap' took 1.216 ms (total: 6.263 ms)
+[2025.05.22-12.40.36:076][492]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.22-12.40.36:116][492]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_DevMap
+[2025.05.22-12.40.36:117][492]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001506s)
+[2025.05.22-12.40.36:117][492]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DevMap.DevMap to /Game/UEDPIE_0_DevMap.DevMap (0.001534s)
+[2025.05.22-12.40.36:132][492]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.05.22-12.40.36:135][492]LogChaosDD: Creating Chaos Debug Draw Scene for world DevMap
+[2025.05.22-12.40.36:136][492]LogWorldPartition: ULevel::OnLevelLoaded(DevMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.22-12.40.36:136][492]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.22-12.40.36:136][492]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_DevMap.DevMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.22-12.40.36:136][492]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.22-12.40.36:137][492]LogWorldPartition: Display: WorldPartition initialize took 700 us (total: 32.155 ms)
+[2025.05.22-12.40.36:137][492]LogPlayLevel: PIE: World Init took: (0.002014s)
+[2025.05.22-12.40.36:137][492]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2025.05.22-12.40.36:137][492]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.22-12.40.36:137][492]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.22-12.40.36:138][492]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.22-12.40.36:138][492]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.22-12.40.36:138][492]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.22-12.40.36:138][492]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.22-12.40.36:138][492]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.22-12.40.36:138][492]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.22-12.40.36:138][492]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.22-12.40.36:138][492]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.22-12.40.36:138][492]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.22-12.40.36:139][492]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.22-12.40.36:231][492]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.05.22-12.40.36:231][492]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.22-12.40.36:231][492]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.22-12.40.36:231][492]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.22-12.40.36:231][492]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2025.05.22-12.40.36:231][492]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2025.05.22-12.40.36:234][492]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2025.05.22-12.40.36:234][492]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2025.05.22-12.40.36:234][492]LogInit: FAudioDevice initialized with ID 5.
+[2025.05.22-12.40.36:234][492]LogAudio: Display: Audio Device (ID: 5) registered with world 'DevMap'.
+[2025.05.22-12.40.36:234][492]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2025.05.22-12.40.36:236][492]LogLoad: Game class is 'GAM312_GM_C'
+[2025.05.22-12.40.36:237][492]LogWorld: Bringing World /Game/UEDPIE_0_DevMap.DevMap up for play (max tick rate 0) at 2025.05.22-07.40.36
+[2025.05.22-12.40.36:237][492]LogWorld: Bringing up level for play took: 0.000485
+[2025.05.22-12.40.36:238][492]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2025.05.22-12.40.36:242][492]LogStreaming: Display: FlushAsyncLoading(650,649): 2 QueuedPackages, 0 AsyncPackages
+[2025.05.22-12.40.36:244][492]PIE: Server logged in
+[2025.05.22-12.40.36:244][492]PIE: Play in editor total start time 0.17 seconds.
+[2025.05.22-12.40.36:246][492]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:252][493]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:327][494]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:348][495]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:356][496]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:364][497]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:373][498]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:382][499]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:389][500]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:398][501]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:406][502]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:414][503]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:423][504]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:431][505]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:440][506]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:448][507]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:456][508]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:464][509]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:473][510]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:481][511]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:489][512]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:498][513]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:506][514]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:514][515]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:523][516]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:531][517]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:539][518]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:548][519]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:556][520]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:564][521]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:573][522]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:581][523]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:589][524]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:597][525]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:606][526]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:614][527]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:622][528]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:631][529]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:639][530]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:647][531]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:655][532]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:665][533]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:672][534]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:681][535]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:689][536]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:698][537]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:706][538]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:714][539]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:723][540]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:731][541]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:739][542]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:747][543]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:756][544]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:764][545]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:773][546]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:781][547]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:790][548]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:798][549]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:806][550]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:814][551]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:822][552]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:831][553]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:839][554]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:848][555]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:856][556]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:864][557]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:872][558]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:881][559]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:889][560]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:899][561]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:907][562]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:914][563]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:923][564]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:931][565]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:939][566]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:947][567]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:957][568]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:964][569]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:973][570]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:981][571]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:990][572]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.36:998][573]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:006][574]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:014][575]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:023][576]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:031][577]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:040][578]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:048][579]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:056][580]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:064][581]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:073][582]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:081][583]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:089][584]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:097][585]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:106][586]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:114][587]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:123][588]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:132][589]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:140][590]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:148][591]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:157][592]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:165][593]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:173][594]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:182][595]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:191][596]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:198][597]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:207][598]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:215][599]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:224][600]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:232][601]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:241][602]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:249][603]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:257][604]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:265][605]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:274][606]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:282][607]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:291][608]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:299][609]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:307][610]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:316][611]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:324][612]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:332][613]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:341][614]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:348][615]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:357][616]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:365][617]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:373][618]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:382][619]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:390][620]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:399][621]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:407][622]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:416][623]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:424][624]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:432][625]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:441][626]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:448][627]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:457][628]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:465][629]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:473][630]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:481][631]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:491][632]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:499][633]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:508][634]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:516][635]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:524][636]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:532][637]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:541][638]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:548][639]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:557][640]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:565][641]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:573][642]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:582][643]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:590][644]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:598][645]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:607][646]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:615][647]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:623][648]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:632][649]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:640][650]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:649][651]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:657][652]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:666][653]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:674][654]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:682][655]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:691][656]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:699][657]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:707][658]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:715][659]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:723][660]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:732][661]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:740][662]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:748][663]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:757][664]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:766][665]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:774][666]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:782][667]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:791][668]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:798][669]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:807][670]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:815][671]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:823][672]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:832][673]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:840][674]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:849][675]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:857][676]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:865][677]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:874][678]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:882][679]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:890][680]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:898][681]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:907][682]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:915][683]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:923][684]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:932][685]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:941][686]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:949][687]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:957][688]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:965][689]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:974][690]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:982][691]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:991][692]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.37:998][693]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.38:007][694]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.38:015][695]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.38:024][696]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.38:032][697]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.38:041][698]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.38:049][699]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.38:057][700]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.38:065][701]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.38:073][702]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger100.0
+Thirst100.0
+Health100.0
+[2025.05.22-12.40.38:082][703]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:090][704]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:098][705]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:107][706]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:115][707]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:124][708]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:132][709]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:140][710]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:149][711]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:157][712]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:165][713]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:173][714]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:181][715]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:190][716]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:198][717]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:207][718]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:215][719]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:223][720]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:232][721]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:241][722]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:249][723]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:257][724]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:265][725]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:274][726]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:283][727]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:291][728]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:299][729]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:308][730]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:316][731]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:324][732]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:332][733]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:340][734]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:349][735]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:358][736]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:366][737]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:375][738]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:383][739]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:391][740]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:399][741]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:408][742]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:416][743]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:424][744]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:432][745]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:440][746]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:449][747]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:457][748]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:465][749]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:475][750]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:483][751]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:490][752]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:499][753]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:507][754]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:515][755]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:525][756]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:533][757]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:540][758]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:549][759]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:557][760]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:565][761]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:575][762]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:583][763]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:590][764]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:600][765]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:608][766]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:616][767]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:624][768]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:632][769]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:640][770]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:649][771]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:657][772]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:665][773]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:675][774]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:682][775]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:690][776]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:699][777]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:708][778]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:715][779]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:724][780]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:732][781]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:741][782]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:749][783]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:757][784]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:765][785]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:774][786]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:782][787]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:790][788]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:798][789]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:808][790]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:815][791]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:824][792]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:832][793]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:840][794]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:849][795]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:857][796]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:865][797]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:873][798]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:882][799]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:890][800]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:898][801]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:907][802]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:915][803]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:924][804]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:932][805]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:940][806]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:948][807]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:957][808]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:965][809]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:973][810]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:982][811]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:990][812]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.38:998][813]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:007][814]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:015][815]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:023][816]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:032][817]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:040][818]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:048][819]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:057][820]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:065][821]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:073][822]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:082][823]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:090][824]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:099][825]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:108][826]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:116][827]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:124][828]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:132][829]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:141][830]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:149][831]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:157][832]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:165][833]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:174][834]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:182][835]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:190][836]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:199][837]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:208][838]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:216][839]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:224][840]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:233][841]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:241][842]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:250][843]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:257][844]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:265][845]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:274][846]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:282][847]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:291][848]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:299][849]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:307][850]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:315][851]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:324][852]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:332][853]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:340][854]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:349][855]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:357][856]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:365][857]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:374][858]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:382][859]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:390][860]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:398][861]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:407][862]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:415][863]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:424][864]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:432][865]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:440][866]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:448][867]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:457][868]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:465][869]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:473][870]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:482][871]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:490][872]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:499][873]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:507][874]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:516][875]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:524][876]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:532][877]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:540][878]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:548][879]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:557][880]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:565][881]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:574][882]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:582][883]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:590][884]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:599][885]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:608][886]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:615][887]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:624][888]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:633][889]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:641][890]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:650][891]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:658][892]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:666][893]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:674][894]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:682][895]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:691][896]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:699][897]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:708][898]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:715][899]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:724][900]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:733][901]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:741][902]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:749][903]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:758][904]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:766][905]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:774][906]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:782][907]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:791][908]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:799][909]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:807][910]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:815][911]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:823][912]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:832][913]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:841][914]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:849][915]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:857][916]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:865][917]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:874][918]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:882][919]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:891][920]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:899][921]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:907][922]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:915][923]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:924][924]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:933][925]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:941][926]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:949][927]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:958][928]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:966][929]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:975][930]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:983][931]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:990][932]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.39:999][933]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.40:008][934]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.40:016][935]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.40:025][936]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.40:032][937]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.40:041][938]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.40:049][939]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.40:057][940]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.40:065][941]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.40:074][942]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger99.0
+Thirst99.0
+Health100.0
+[2025.05.22-12.40.40:082][943]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:091][944]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:099][945]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:107][946]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:115][947]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:124][948]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:133][949]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:141][950]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:149][951]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:158][952]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:166][953]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:174][954]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:183][955]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:190][956]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:198][957]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:208][958]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:216][959]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:224][960]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:232][961]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:241][962]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:248][963]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:257][964]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:265][965]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:274][966]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:282][967]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:291][968]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:299][969]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:307][970]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:315][971]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:324][972]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:332][973]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:341][974]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:349][975]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:357][976]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:365][977]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:375][978]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:382][979]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:391][980]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:399][981]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:407][982]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:415][983]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:424][984]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:432][985]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:441][986]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:449][987]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:458][988]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:466][989]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:474][990]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:482][991]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:491][992]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:499][993]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:507][994]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:516][995]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:524][996]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:532][997]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:541][998]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:549][999]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:557][  0]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:566][  1]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:574][  2]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:582][  3]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:591][  4]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:599][  5]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:607][  6]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:615][  7]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:625][  8]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:633][  9]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:641][ 10]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:649][ 11]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:658][ 12]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:666][ 13]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:675][ 14]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:683][ 15]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:690][ 16]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:699][ 17]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:707][ 18]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:715][ 19]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:725][ 20]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:733][ 21]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:741][ 22]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:749][ 23]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:758][ 24]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:766][ 25]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:774][ 26]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:782][ 27]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:791][ 28]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:799][ 29]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:808][ 30]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:816][ 31]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:824][ 32]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:832][ 33]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:841][ 34]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:849][ 35]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:858][ 36]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:866][ 37]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:874][ 38]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:882][ 39]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:891][ 40]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:899][ 41]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:907][ 42]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:917][ 43]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:925][ 44]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:933][ 45]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:941][ 46]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:950][ 47]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:958][ 48]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:966][ 49]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:974][ 50]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:982][ 51]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:991][ 52]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.40:999][ 53]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:008][ 54]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:016][ 55]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:024][ 56]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:032][ 57]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:041][ 58]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:049][ 59]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:058][ 60]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:066][ 61]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:074][ 62]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:082][ 63]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:091][ 64]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:099][ 65]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:107][ 66]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:116][ 67]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:124][ 68]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:132][ 69]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:140][ 70]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:148][ 71]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:158][ 72]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:166][ 73]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:174][ 74]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:183][ 75]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:190][ 76]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:199][ 77]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:207][ 78]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:215][ 79]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:224][ 80]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:233][ 81]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:240][ 82]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:249][ 83]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:258][ 84]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:266][ 85]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:274][ 86]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:282][ 87]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:290][ 88]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:299][ 89]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:307][ 90]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:315][ 91]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:324][ 92]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:332][ 93]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:340][ 94]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:349][ 95]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:357][ 96]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:365][ 97]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:374][ 98]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:382][ 99]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:391][100]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:399][101]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:407][102]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:415][103]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:423][104]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:433][105]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:440][106]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:449][107]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:457][108]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:465][109]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:474][110]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:482][111]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:491][112]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:499][113]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:507][114]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:516][115]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:524][116]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:532][117]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:540][118]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:548][119]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:557][120]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:565][121]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:574][122]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:582][123]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:591][124]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:599][125]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:607][126]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:616][127]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:624][128]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:632][129]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:640][130]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:648][131]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:658][132]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:666][133]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:674][134]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:682][135]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:691][136]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:699][137]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:707][138]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:715][139]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:725][140]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:733][141]LogBlueprintUserMessages: [PlayerChar_BP_C_0] Hunger98.0
+Thirst98.0
+Health100.0
+[2025.05.22-12.40.41:756][141]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.22-12.40.41:756][141]LogWorld: BeginTearingDown for /Game/UEDPIE_0_DevMap
+[2025.05.22-12.40.41:757][141]LogWorld: UWorld::CleanupWorld for DevMap, bSessionEnded=true, bCleanupResources=true
+[2025.05.22-12.40.41:757][141]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.22-12.40.41:757][141]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_DevMap.DevMap
+[2025.05.22-12.40.41:760][141]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.22-12.40.41:764][141]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.22-12.40.41:779][141]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.22-12.40.41:779][141]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2025.05.22-12.40.41:780][141]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.05.22-12.40.41:781][141]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.05.22-12.40.41:787][141]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.05.22-12.40.41:847][143]LogPlayLevel: Display: Destroying online subsystem :Context_14

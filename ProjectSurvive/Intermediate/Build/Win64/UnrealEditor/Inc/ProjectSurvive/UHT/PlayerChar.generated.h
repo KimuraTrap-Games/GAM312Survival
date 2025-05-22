@@ -15,6 +15,11 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define PROJECTSURVIVE_PlayerChar_generated_h
 
 #define FID_Users_scott_Desktop_GAM312Survival_ProjectSurvive_Source_ProjectSurvive_PlayerChar_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execDecreaseStats); \
+	DECLARE_FUNCTION(execSetStamina); \
+	DECLARE_FUNCTION(execSetThirst); \
+	DECLARE_FUNCTION(execSetHunger); \
+	DECLARE_FUNCTION(execSetHealth); \
 	DECLARE_FUNCTION(execFindObject); \
 	DECLARE_FUNCTION(execStopJump); \
 	DECLARE_FUNCTION(execStartJump); \

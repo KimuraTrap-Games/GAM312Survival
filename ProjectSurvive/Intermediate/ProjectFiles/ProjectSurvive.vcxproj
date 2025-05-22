@@ -253,6 +253,7 @@
     <None Include="..\..\Source\ProjectSurvive.Target.cs"/>
     <None Include="..\..\Source\ProjectSurviveEditor.Target.cs"/>
     <None Include="..\..\.ignore"/>
+    <None Include="..\..\.vsconfig"/>
     <None Include="..\..\ProjectSurvive.code-workspace"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
