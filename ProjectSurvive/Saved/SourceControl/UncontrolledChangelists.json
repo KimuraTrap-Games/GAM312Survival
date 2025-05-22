@@ -90,6 +90,8 @@
 				"C:/Users/scott/Desktop/GAM312Survival/ProjectSurvive/Content/__ExternalActors__/DevMap/5/F8/9O6D8KFG57SX8IB1F2WY46.uasset",
 				"C:/Users/scott/Desktop/GAM312Survival/ProjectSurvive/Content/__ExternalActors__/DevMap/2/LP/B6GK0YO1HLR6MQYPRU7UZF.uasset",
 				"C:/Users/scott/Desktop/GAM312Survival/ProjectSurvive/Content/Player/PlayerChar_BP.uasset",
+				"C:/Users/scott/Desktop/GAM312Survival/ProjectSurvive/Content/GAM312_GM.uasset",
+				"C:/Users/scott/Desktop/GAM312Survival/ProjectSurvive/Content/__ExternalActors__/DevMap/D/G6/SOB2MOQRK1MSQXZJIY0W0J.uasset",
 				"C:/Users/scott/Desktop/GAM312Survival/ProjectSurvive/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"C:/Users/scott/Desktop/GAM312Survival/ProjectSurvive/Content/LevelPrototyping/Textures/T_GridChecker_A.uasset",
 				"C:/Users/scott/Desktop/GAM312Survival/ProjectSurvive/Content/LevelPrototyping/Meshes/SM_Ramp.uasset",
@@ -156,8 +158,7 @@
 				"C:/Users/scott/Desktop/GAM312Survival/ProjectSurvive/Content/ThirdPerson/Input/IMC_Default.uasset",
 				"C:/Users/scott/Desktop/GAM312Survival/ProjectSurvive/Content/ThirdPerson/Input/Actions/IA_Move.uasset",
 				"C:/Users/scott/Desktop/GAM312Survival/ProjectSurvive/Content/ThirdPerson/Input/Actions/IA_Look.uasset",
-				"C:/Users/scott/Desktop/GAM312Survival/ProjectSurvive/Content/ThirdPerson/Input/Actions/IA_Jump.uasset",
-				"C:/Users/scott/Desktop/GAM312Survival/ProjectSurvive/Content/GAM312_GM.uasset"
+				"C:/Users/scott/Desktop/GAM312Survival/ProjectSurvive/Content/ThirdPerson/Input/Actions/IA_Jump.uasset"
 			]
 		}
 	]
