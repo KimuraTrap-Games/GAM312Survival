@@ -1617,3 +1617,69 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.05.22-12.13.18:396][758]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
 [2025.05.22-12.13.18:396][758]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2025.05.22-12.13.18:423][758]LogWorldPartitionEditor: Display: Running commandlet: C:\Program Files\Epic Games\UE_5.5\Engine\Binaries\Win64\UnrealEditor.exe  "../../../../../../Users/scott/Desktop/GAM312Survival/ProjectSurvive/ProjectSurvive.uproject" -BaseDir="C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/Win64/" -Unattended -RunningFromUnrealEd -AbsLog="C:/Users/scott/Desktop/GAM312Survival/ProjectSurvive/Saved/Logs/WorldPartition/WorldPartitionHLODsBuilder-0000503c-2025-05-22T07.13.18.423Z.log" /Game/DevMap -run=WorldPartitionBuilderCommandlet -Builder=WorldPartitionHLODsBuilder -SetupHLODs -BuildHLODs -AllowCommandletRendering
+[2025.05.22-12.28.40:854][758]LogWorldPartitionEditor: Display: Commandlet executed successfully.
+[2025.05.22-12.28.40:854][758]LogWorldPartitionEditor: Display: Detailed output can be found in C:/Users/scott/Desktop/GAM312Survival/ProjectSurvive/Saved/Logs/WorldPartition/WorldPartitionHLODsBuilder-0000503c-2025-05-22T07.13.18.423Z.log
+[2025.05.22-12.28.40:864][758]Cmd: MAP LOAD FILE="../../../../../../Users/scott/Desktop/GAM312Survival/ProjectSurvive/Content/DevMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.05.22-12.28.40:892][758]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2025.05.22-12.28.40:892][758]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.22-12.28.40:910][758]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.22-12.28.40:912][758]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.05.22-12.28.40:924][758]LogStreaming: Display: FlushAsyncLoading(626): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.22-12.28.40:928][758]LogAudio: Display: Audio Device (ID: 1) registered with world 'DevMap'.
+[2025.05.22-12.28.40:928][758]LogChaosDD: Creating Chaos Debug Draw Scene for world DevMap
+[2025.05.22-12.28.40:929][758]LogWorldPartition: ULevel::OnLevelLoaded(DevMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.05.22-12.28.40:929][758]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.22-12.28.40:929][758]LogWorldPartition: UWorldPartition::Initialize : World = /Game/DevMap.DevMap, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.22-12.28.40:934][758]LogWorldPartition: Display: WorldPartition initialize took 5.356 ms (total: 30.769 ms)
+[2025.05.22-12.28.40:942][758]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.05.22-12.28.40:959][758]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.05.22-12.28.40:971][758]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.05.22-12.28.40:971][758]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.425ms to complete.
+[2025.05.22-12.28.40:972][758]LogEditorBuildUtils: Build time 15:24
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display: ================================================
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display: Total job queries 185, among them cache hits 18 (9.73%), DDC hits 161 (87.03%), Duplicates 5 (2.70%)
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display: Tracking 162 distinct input hashes that result in 148 distinct outputs (91.36%)
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display: RAM used: 118.90 KiB of 3.20 GiB budget. Usage: 0.00%
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display: Shaders Compiled: 1
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display: Jobs assigned 1, completed 1 (100%)
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display: Time job spent in pending queue: average 0.08 s, longest 0.08 s
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display: Job execution time: average 1.41 s, max 1.41 s
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display: Job life time (pending + execution): average 1.49 s, max 1.49
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display: Shader code size: average 11.445 KiB, min 11.445 KiB, max 11.445 KiB
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.49 s
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.03%
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display: Jobs were issued in 1 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display: Average processing rate: 0.67 jobs/sec
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display: Total thread time: 0.508 s
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display: Total thread preprocess time: 2.113 s
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display: Percentage time preprocessing: 415.86%
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display: Effective parallelization: 0.34 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    1 times, average 0.51 sec, max 0.51 sec, min 0.51 sec)
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display:                                        FCloudRenderViewPS110 (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 100.00% of total time (compiled    1 times, average 0.51 sec, max 0.51 sec, min 0.51 sec)
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display:                                                 FLumenCardVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display:                                        FCloudRenderViewPS110 - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display: === Material stats ===
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display: Materials Translated:    129
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display: Material Total Translate Time: 0.09 s
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display: Material Translation Only: 0.02 s (24%)
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display: Material Cache Hits: 31 (24%)
+[2025.05.22-12.28.40:977][758]LogShaderCompilers: Display: ================================================
+[2025.05.22-12.28.40:997][758]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.05.22-12.28.41:019][759]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2729.074463
+[2025.05.22-12.28.41:698][760]LogSlate: External Image Picker: DecompressImage failed
+[2025.05.22-12.28.41:787][761]LogRHI: Error: GpuProfiler's scratch buffer is out of space for this frame (current size : 32 kB). Dropping this frame. The size can be increased dynamically with the console variable r.GpuProfilerMaxEventBufferSizeKB
+[2025.05.22-12.28.42:455][763]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.22-12.28.42:455][763]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2730.176270, Update Interval: 353.549011
+[2025.05.22-12.29.51:218][159]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms

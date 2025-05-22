@@ -1319,3 +1319,80 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.05.22-12.13.40:123][  1]LogShaderCompilers: Error: Job 8 [Single] Failed: PhAT_UnselectedMaterial_3b22d4534afad48/Default/FLocalVertexFactory/FLumenCardVS/0:/Engine/Private/Lumen/LumenCardVertexShader.usf|Main VF 'FLocalVertexFactory' Type 'FLumenCardVS' '/Engine/Private/Lumen/LumenCardVertexShader.usf' Entry 'Main' Permutation 0 
 [2025.05.22-12.13.40:123][  1]LogShaderCompilers: Error: Job 9 [Single] Failed: PhAT_UnselectedMaterial_3b22d4534afad48/Default/FLocalVertexFactory/TMaterialCHSFNoLightMapPolicyFAnyHitShader/0:/Engine/Private/RayTracing/RayTracingMaterialHitShaders.usf|closesthit=MaterialCHS anyhit=MaterialAHS VF 'FLocalVertexFactory' Type 'TMaterialCHSFNoLightMapPolicyFAnyHitShader' '/Engine/Private/RayTracing/RayTracingMaterialHitShaders.usf' Entry 'closesthit=MaterialCHS anyhit=MaterialAHS' Permutation 0 
 [2025.05.22-12.15.20:101][  1]LogDerivedDataCache: C:/Users/scott/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.05.22-12.28.40:407][  1]LogContentStreaming: Blocking on texture streaming: 33.7 ms (0 still in flight)
+[2025.05.22-12.28.40:408][  1]LogWorldPartitionHLODsBuilder: Display: HLOD actor DevMap_HLOD0_Instancing/DevMap_MainGrid_L0_X0_Y0_Z-1 was modified, saving...
+[2025.05.22-12.28.40:409][  1]LogWorldPartitionHLODsBuilder: Display: [2 / 2] Building HLOD actor DevMap_HLOD0_Instancing/DevMap_MainGrid_L0_X-1_Y-1_Z0...
+[2025.05.22-12.28.40:409][  1]LogShaderCompilers: Display: ================================================
+[2025.05.22-12.28.40:409][  1]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.05.22-12.28.40:409][  1]LogShaderCompilers: Display: Total job queries 4,640, among them cache hits 0 (0.00%), DDC hits 0 (0.00%), Duplicates 528 (11.38%)
+[2025.05.22-12.28.40:409][  1]LogShaderCompilers: Display: Tracking 4,112 distinct input hashes that result in 1,712 distinct outputs (41.63%)
+[2025.05.22-12.28.40:409][  1]LogShaderCompilers: Display: RAM used: 1.26 MiB of 3.20 GiB budget. Usage: 0.04%
+[2025.05.22-12.28.40:409][  1]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.05.22-12.28.40:409][  1]LogShaderCompilers: Display: Shaders Compiled: 4,112
+[2025.05.22-12.28.40:409][  1]LogShaderCompilers: Display: Jobs assigned 4,112, completed 4,112 (100%)
+[2025.05.22-12.28.40:409][  1]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2025.05.22-12.28.40:411][  1]LogShaderCompilers: Display: Time job spent in pending queue: average 455.99 s, longest 849.13 s
+[2025.05.22-12.28.40:411][  1]LogShaderCompilers: Display: Job execution time: average 63.56 s, max 97.18 s
+[2025.05.22-12.28.40:411][  1]LogShaderCompilers: Display: Job life time (pending + execution): average 519.54 s, max 918.48
+[2025.05.22-12.28.40:411][  1]LogShaderCompilers: Display: Shader code size: average 8.556 KiB, min 1.305 KiB, max 49.172 KiB
+[2025.05.22-12.28.40:411][  1]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 918.89 s
+[2025.05.22-12.28.40:411][  1]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.07%
+[2025.05.22-12.28.40:411][  1]LogShaderCompilers: Display: Jobs were issued in 58 batches (only local compilation was used), average 6.12 jobs/batch
+[2025.05.22-12.28.40:411][  1]LogShaderCompilers: Display: Average processing rate: 4.47 jobs/sec
+[2025.05.22-12.28.40:411][  1]LogShaderCompilers: Display: Total thread time: 917.733 s
+[2025.05.22-12.28.40:411][  1]LogShaderCompilers: Display: Total thread preprocess time: 45.458 s
+[2025.05.22-12.28.40:411][  1]LogShaderCompilers: Display: Percentage time preprocessing: 4.95%
+[2025.05.22-12.28.40:411][  1]LogShaderCompilers: Display: Effective parallelization: 1.00 (times faster than compiling all shaders on one thread). Compare with number of workers: 28
+[2025.05.22-12.28.40:411][  1]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.05.22-12.28.40:411][  1]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    8 times, average 0.87 sec, max 1.07 sec, min 0.78 sec)
+[2025.05.22-12.28.40:411][  1]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled   12 times, average 0.83 sec, max 1.01 sec, min 0.74 sec)
+[2025.05.22-12.28.40:412][  1]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   68 times, average 0.79 sec, max 1.06 sec, min 0.55 sec)
+[2025.05.22-12.28.40:412][  1]LogShaderCompilers: Display:                                        FCloudRenderViewPS111 (compiled    1 times, average 0.75 sec, max 0.75 sec, min 0.75 sec)
+[2025.05.22-12.28.40:412][  1]LogShaderCompilers: Display:                                        FCloudRenderViewPS011 (compiled    1 times, average 0.73 sec, max 0.73 sec, min 0.73 sec)
+[2025.05.22-12.28.40:412][  1]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.05.22-12.28.40:412][  1]LogShaderCompilers: Display:                                             FDebugViewModePS - 13.01% of total time (compiled  228 times, average 0.52 sec, max 1.59 sec, min 0.28 sec)
+[2025.05.22-12.28.40:449][  2]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 8.63% of total time (compiled  173 times, average 0.46 sec, max 0.74 sec, min 0.34 sec)
+[2025.05.22-12.28.40:449][  2]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 6.36% of total time (compiled  255 times, average 0.23 sec, max 0.55 sec, min 0.14 sec)
+[2025.05.22-12.28.40:449][  2]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 6.36% of total time (compiled  135 times, average 0.43 sec, max 0.81 sec, min 0.32 sec)
+[2025.05.22-12.28.40:449][  2]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 5.88% of total time (compiled   68 times, average 0.79 sec, max 1.06 sec, min 0.55 sec)
+[2025.05.22-12.28.40:449][  2]LogShaderCompilers: Display: === Material stats ===
+[2025.05.22-12.28.40:449][  2]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.05.22-12.28.40:449][  2]LogShaderCompilers: Display: Materials Translated:    89
+[2025.05.22-12.28.40:449][  2]LogShaderCompilers: Display: Material Total Translate Time: 0.05 s
+[2025.05.22-12.28.40:449][  2]LogShaderCompilers: Display: Material Translation Only: 0.03 s (54%)
+[2025.05.22-12.28.40:449][  2]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (4%)
+[2025.05.22-12.28.40:449][  2]LogShaderCompilers: Display: Material Cache Hits: 29 (33%)
+[2025.05.22-12.28.40:449][  2]LogShaderCompilers: Display: ================================================
+[2025.05.22-12.28.40:449][  2]LogAssetRegistry: AssetRegistryGather time 0.0920s: AssetDataDiscovery 0.0193s, AssetDataGather 0.0092s, StoreResults 0.0634s. Wall time 919.5220s.
+	NumCachedDirectories 0. NumUncachedDirectories 1669. NumCachedFiles 7712. NumUncachedFiles 8.
+	BackgroundTickInterruptions 0.
+[2025.05.22-12.28.40:449][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000001 seconds (updated 0 objects)
+[2025.05.22-12.28.40:449][  2]LogWorldPartitionHLODsBuilder: Display: HLOD actor DevMap_HLOD0_Instancing/DevMap_MainGrid_L0_X-1_Y-1_Z0 was modified, saving...
+[2025.05.22-12.28.40:450][  2]LogWorldPartitionHLODsBuilder: Display: #### Built 2 HLOD actors ####
+[2025.05.22-12.28.40:450][  2]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/DevMap.DevMap
+[2025.05.22-12.28.40:450][  2]LogWorldPartitionBuilderCommandlet: Display: Execution took 15:15 min
+[2025.05.22-12.28.40:450][  2]LogCore: Engine exit requested (reason: Commandlet WorldPartitionBuilderCommandlet_0 finished execution (result 0))
+[2025.05.22-12.28.40:450][  2]LogInit: Display: 
+[2025.05.22-12.28.40:450][  2]LogInit: Display: Warning/Error Summary (Unique only)
+[2025.05.22-12.28.40:452][  2]LogInit: Display: -----------------------------------
+[2025.05.22-12.28.40:452][  2]LogInit: Display: LogShaderCompilers: Error: ShaderCompileWorker terminated unexpectedly, return code -1073741819! Falling back to directly compiling which will be very slow.  Thread 0.
+[2025.05.22-12.28.40:452][  2]LogInit: Display: LogShaderCompilers: Error: SCW 1 Queued Jobs, Unknown number of processed jobs!
+[2025.05.22-12.28.40:452][  2]LogInit: Display: LogShaderCompilers: Error: Job 0 [Single] Failed: DefaultTextMaterialOpaque_dc82f08392a5825/Default/FLocalVertexFactory/TShadowDepthPSPixelShadowDepth_NonPerspectiveCorrect/0:/Engine/Private/ShadowDepthPixelShader.usf|Main VF 'FLocalVertexFactory' Type 'TShadowDepthPSPixelShadowDepth_NonPerspectiveCorrect' '/Engine/Private/ShadowDepthPixelShader.usf' Entry 'Main' Permutation 0 
+[2025.05.22-12.28.40:452][  2]LogInit: Display: LogShaderCompilers: Error: ShaderCompileWorker terminated unexpectedly, return code -1073741819! Falling back to directly compiling which will be very slow.  Thread 1.
+[2025.05.22-12.28.40:452][  2]LogInit: Display: LogShaderCompilers: Error: SCW 10 Queued Jobs, Unknown number of processed jobs!
+[2025.05.22-12.28.40:452][  2]LogInit: Display: LogShaderCompilers: Error: Job 0 [Single] Failed: m_SimpleVolumetricCloud_adde24831b21260a/Default/FLocalVertexFactory/FRenderVolumetricCloudVS/0:/Engine/Private/VolumetricCloud.usf|MainVS VF 'FLocalVertexFactory' Type 'FRenderVolumetricCloudVS' '/Engine/Private/VolumetricCloud.usf' Entry 'MainVS' Permutation 0 
+[2025.05.22-12.28.40:452][  2]LogInit: Display: LogShaderCompilers: Error: Job 1 [Single] Failed: LevelColorationLitMaterial_3f61d57eed17cd49/Default/TGPUSkinVertexFactoryDefault/TShadowDepthVSVertexShadowDepth_OutputDepth/0:/Engine/Private/ShadowDepthVertexShader.usf|Main VF 'TGPUSkinVertexFactoryDefault' Type 'TShadowDepthVSVertexShadowDepth_OutputDepth' '/Engine/Private/ShadowDepthVertexShader.usf' Entry 'Main' Permutation 0 
+[2025.05.22-12.28.40:550][  2]LogInit: Display: LogShaderCompilers: Error: Job 2 [Single] Failed: MAT_LevelColorationLitLightmapUV_4084a3de5389a43e/Default/FHairStrandsVertexFactory/TShadowDepthVSVertexShadowDepth_PerspectiveCorrect/0:/Engine/Private/ShadowDepthVertexShader.usf|Main VF 'FHairStrandsVertexFactory' Type 'TShadowDepthVSVertexShadowDepth_PerspectiveCorrect' '/Engine/Private/ShadowDepthVertexShader.usf' Entry 'Main' Permutation 0 
+[2025.05.22-12.28.40:551][  2]LogInit: Display: LogShaderCompilers: Error: Job 3 [Single] Failed: ShadedLevelColorationLitMaterial_a303a2c65bdebc33/Default/FParticleBeamTrailVertexFactory/TShadowDepthPSPixelShadowDepth_VirtualShadowMap/0:/Engine/Private/ShadowDepthPixelShader.usf|Main VF 'FParticleBeamTrailVertexFactory' Type 'TShadowDepthPSPixelShadowDepth_VirtualShadowMap' '/Engine/Private/ShadowDepthPixelShader.usf' Entry 'Main' Permutation 0 
+[2025.05.22-12.28.40:551][  2]LogInit: Display: LogShaderCompilers: Error: Job 4 [Single] Failed: M_InvalidLightmapSettings_81b37d2f250cb242/Default/FLocalVertexFactory/FRayTracingDynamicGeometryConverterCS/0:/Engine/Private/RayTracing/RayTracingDynamicMesh.usf|RayTracingDynamicGeometryConverterCS VF 'FLocalVertexFactory' Type 'FRayTracingDynamicGeometryConverterCS' '/Engine/Private/RayTracing/RayTracingDynamicMesh.usf' Entry 'RayTracingDynamicGeometryConverterCS' Permutation 0 
+[2025.05.22-12.28.40:551][  2]LogInit: Display: LogShaderCompilers: Error: Job 5 [Single] Failed: M_InvalidLightmapSettings_81b37d2f250cb242/Default/FLocalVertexFactory/FDebugViewModePS/0:/Engine/Private/DebugViewModePixelShader.usf|Main VF 'FLocalVertexFactory' Type 'FDebugViewModePS' '/Engine/Private/DebugViewModePixelShader.usf' Entry 'Main' Permutation 0 
+[2025.05.22-12.28.40:551][  2]LogInit: Display: LogShaderCompilers: Error: Job 6 [Single] Failed: FlattenMaterial_WS_Normal_VT_1751764cb7000e60/Default/FLocalVertexFactory/FDebugViewModePS/0:/Engine/Private/DebugViewModePixelShader.usf|Main VF 'FLocalVertexFactory' Type 'FDebugViewModePS' '/Engine/Private/DebugViewModePixelShader.usf' Entry 'Main' Permutation 0 
+[2025.05.22-12.28.40:552][  2]LogInit: Display: LogShaderCompilers: Error: Job 7 [Single] Failed: DefaultMaterial_98295b133cf6f9b3/Default/FNiagaraRibbonVertexFactory/FDebugViewModePS/0:/Engine/Private/DebugViewModePixelShader.usf|Main VF 'FNiagaraRibbonVertexFactory' Type 'FDebugViewModePS' '/Engine/Private/DebugViewModePixelShader.usf' Entry 'Main' Permutation 0 
+[2025.05.22-12.28.40:552][  2]LogInit: Display: LogShaderCompilers: Error: Job 8 [Single] Failed: PhAT_UnselectedMaterial_3b22d4534afad48/Default/FLocalVertexFactory/FLumenCardVS/0:/Engine/Private/Lumen/LumenCardVertexShader.usf|Main VF 'FLocalVertexFactory' Type 'FLumenCardVS' '/Engine/Private/Lumen/LumenCardVertexShader.usf' Entry 'Main' Permutation 0 
+[2025.05.22-12.28.40:552][  2]LogInit: Display: LogShaderCompilers: Error: Job 9 [Single] Failed: PhAT_UnselectedMaterial_3b22d4534afad48/Default/FLocalVertexFactory/TMaterialCHSFNoLightMapPolicyFAnyHitShader/0:/Engine/Private/RayTracing/RayTracingMaterialHitShaders.usf|closesthit=MaterialCHS anyhit=MaterialAHS VF 'FLocalVertexFactory' Type 'TMaterialCHSFNoLightMapPolicyFAnyHitShader' '/Engine/Private/RayTracing/RayTracingMaterialHitShaders.usf' Entry 'closesthit=MaterialCHS anyhit=MaterialAHS' Permutation 0 
+[2025.05.22-12.28.40:552][  2]LogInit: Display: 
+[2025.05.22-12.28.40:552][  2]LogInit: Display: Failure - 15 error(s), 0 warning(s)
+[2025.05.22-12.28.40:552][  2]LogInit: Display: 
+Execution of commandlet took:  15m 15s (915.83 seconds)
+[2025.05.22-12.28.40:552][  2]LogWindows: FPlatformMisc::RequestExitWithStatus(1, 0, <NoCallSiteInfo>)
+[2025.05.22-12.28.40:552][  2]LogCore: Engine exit requested (reason: Win RequestExit; note: exit was already requested)
