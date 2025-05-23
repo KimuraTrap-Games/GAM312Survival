@@ -26,7 +26,7 @@ public:
 
 
 	UPROPERTY(EditAnywhere)
-	FString resources = "Wood";
+	FString resourceName = "Wood";
 
 	UPROPERTY(EditAnywhere)
 	int resourceAmount = 5;

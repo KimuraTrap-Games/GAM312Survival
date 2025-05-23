@@ -3,6 +3,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "Camera/CameraComponent.h"
+#include "Resource_M.h"
 #include "PlayerChar.generated.h"
 
 
@@ -86,6 +87,9 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	void DecreaseStats();
+
+	UFUNCTION()
+	void GiveResource(float amount, FString resourceType);
 
 };
 

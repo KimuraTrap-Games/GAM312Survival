@@ -35,7 +35,7 @@ struct Z_Construct_UClass_AResource_M_Statics
 		{ "IncludePath", "Resource_M.h" },
 		{ "ModuleRelativePath", "Resource_M.h" },
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_resources_MetaData[] = {
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_resourceName_MetaData[] = {
 		{ "Category", "Resource_M" },
 		{ "ModuleRelativePath", "Resource_M.h" },
 	};
@@ -65,7 +65,7 @@ struct Z_Construct_UClass_AResource_M_Statics
 		{ "ModuleRelativePath", "Resource_M.h" },
 	};
 #endif // WITH_METADATA
-	static const UECodeGen_Private::FStrPropertyParams NewProp_resources;
+	static const UECodeGen_Private::FStrPropertyParams NewProp_resourceName;
 	static const UECodeGen_Private::FIntPropertyParams NewProp_resourceAmount;
 	static const UECodeGen_Private::FIntPropertyParams NewProp_totalResource;
 	static const UECodeGen_Private::FTextPropertyParams NewProp_tempText;
@@ -79,7 +79,7 @@ struct Z_Construct_UClass_AResource_M_Statics
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
-const UECodeGen_Private::FStrPropertyParams Z_Construct_UClass_AResource_M_Statics::NewProp_resources = { "resources", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AResource_M, resources), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_resources_MetaData), NewProp_resources_MetaData) };
+const UECodeGen_Private::FStrPropertyParams Z_Construct_UClass_AResource_M_Statics::NewProp_resourceName = { "resourceName", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AResource_M, resourceName), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_resourceName_MetaData), NewProp_resourceName_MetaData) };
 const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_AResource_M_Statics::NewProp_resourceAmount = { "resourceAmount", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AResource_M, resourceAmount), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_resourceAmount_MetaData), NewProp_resourceAmount_MetaData) };
 const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_AResource_M_Statics::NewProp_totalResource = { "totalResource", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AResource_M, totalResource), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_totalResource_MetaData), NewProp_totalResource_MetaData) };
 const UECodeGen_Private::FTextPropertyParams Z_Construct_UClass_AResource_M_Statics::NewProp_tempText = { "tempText", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Text, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AResource_M, tempText), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_tempText_MetaData), NewProp_tempText_MetaData) };
@@ -87,7 +87,7 @@ const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AResource_M_St
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AResource_M_Statics::NewProp_Mesh = { "Mesh", nullptr, (EPropertyFlags)0x0010000000080009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AResource_M, Mesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Mesh_MetaData), NewProp_Mesh_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AResource_M_Statics::NewProp_resourceMesh = { "resourceMesh", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AResource_M, resourceMesh), Z_Construct_UClass_UStaticMesh_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_resourceMesh_MetaData), NewProp_resourceMesh_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AResource_M_Statics::PropPointers[] = {
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AResource_M_Statics::NewProp_resources,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AResource_M_Statics::NewProp_resourceName,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AResource_M_Statics::NewProp_resourceAmount,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AResource_M_Statics::NewProp_totalResource,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AResource_M_Statics::NewProp_tempText,
@@ -136,10 +136,10 @@ AResource_M::~AResource_M() {}
 struct Z_CompiledInDeferFile_FID_Users_scott_Desktop_GAM312Survival_ProjectSurvive_Source_ProjectSurvive_Resource_M_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AResource_M, AResource_M::StaticClass, TEXT("AResource_M"), &Z_Registration_Info_UClass_AResource_M, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AResource_M), 717350263U) },
+		{ Z_Construct_UClass_AResource_M, AResource_M::StaticClass, TEXT("AResource_M"), &Z_Registration_Info_UClass_AResource_M, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AResource_M), 2248567557U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scott_Desktop_GAM312Survival_ProjectSurvive_Source_ProjectSurvive_Resource_M_h_49990724(TEXT("/Script/ProjectSurvive"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scott_Desktop_GAM312Survival_ProjectSurvive_Source_ProjectSurvive_Resource_M_h_188153737(TEXT("/Script/ProjectSurvive"),
 	Z_CompiledInDeferFile_FID_Users_scott_Desktop_GAM312Survival_ProjectSurvive_Source_ProjectSurvive_Resource_M_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_scott_Desktop_GAM312Survival_ProjectSurvive_Source_ProjectSurvive_Resource_M_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

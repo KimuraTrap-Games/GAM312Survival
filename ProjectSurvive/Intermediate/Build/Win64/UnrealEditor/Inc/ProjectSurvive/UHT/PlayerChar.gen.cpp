@@ -75,6 +75,53 @@ DEFINE_FUNCTION(APlayerChar::execFindObject)
 }
 // End Class APlayerChar Function FindObject
 
+// Begin Class APlayerChar Function GiveResource
+struct Z_Construct_UFunction_APlayerChar_GiveResource_Statics
+{
+	struct PlayerChar_eventGiveResource_Parms
+	{
+		float amount;
+		FString resourceType;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "PlayerChar.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_amount;
+	static const UECodeGen_Private::FStrPropertyParams NewProp_resourceType;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_APlayerChar_GiveResource_Statics::NewProp_amount = { "amount", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(PlayerChar_eventGiveResource_Parms, amount), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_APlayerChar_GiveResource_Statics::NewProp_resourceType = { "resourceType", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(PlayerChar_eventGiveResource_Parms, resourceType), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APlayerChar_GiveResource_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APlayerChar_GiveResource_Statics::NewProp_amount,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APlayerChar_GiveResource_Statics::NewProp_resourceType,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerChar_GiveResource_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_APlayerChar_GiveResource_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APlayerChar, nullptr, "GiveResource", nullptr, nullptr, Z_Construct_UFunction_APlayerChar_GiveResource_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerChar_GiveResource_Statics::PropPointers), sizeof(Z_Construct_UFunction_APlayerChar_GiveResource_Statics::PlayerChar_eventGiveResource_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerChar_GiveResource_Statics::Function_MetaDataParams), Z_Construct_UFunction_APlayerChar_GiveResource_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_APlayerChar_GiveResource_Statics::PlayerChar_eventGiveResource_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_APlayerChar_GiveResource()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_APlayerChar_GiveResource_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(APlayerChar::execGiveResource)
+{
+	P_GET_PROPERTY(FFloatProperty,Z_Param_amount);
+	P_GET_PROPERTY(FStrProperty,Z_Param_resourceType);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->GiveResource(Z_Param_amount,Z_Param_resourceType);
+	P_NATIVE_END;
+}
+// End Class APlayerChar Function GiveResource
+
 // Begin Class APlayerChar Function MoveForward
 struct Z_Construct_UFunction_APlayerChar_MoveForward_Statics
 {
@@ -392,6 +439,7 @@ void APlayerChar::StaticRegisterNativesAPlayerChar()
 	static const FNameNativePtrPair Funcs[] = {
 		{ "DecreaseStats", &APlayerChar::execDecreaseStats },
 		{ "FindObject", &APlayerChar::execFindObject },
+		{ "GiveResource", &APlayerChar::execGiveResource },
 		{ "MoveForward", &APlayerChar::execMoveForward },
 		{ "MoveRight", &APlayerChar::execMoveRight },
 		{ "SetHealth", &APlayerChar::execSetHealth },
@@ -475,6 +523,7 @@ struct Z_Construct_UClass_APlayerChar_Statics
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
 		{ &Z_Construct_UFunction_APlayerChar_DecreaseStats, "DecreaseStats" }, // 2184152963
 		{ &Z_Construct_UFunction_APlayerChar_FindObject, "FindObject" }, // 2118347077
+		{ &Z_Construct_UFunction_APlayerChar_GiveResource, "GiveResource" }, // 3324902622
 		{ &Z_Construct_UFunction_APlayerChar_MoveForward, "MoveForward" }, // 1389377169
 		{ &Z_Construct_UFunction_APlayerChar_MoveRight, "MoveRight" }, // 2504081276
 		{ &Z_Construct_UFunction_APlayerChar_SetHealth, "SetHealth" }, // 1162481591
@@ -557,10 +606,10 @@ APlayerChar::~APlayerChar() {}
 struct Z_CompiledInDeferFile_FID_Users_scott_Desktop_GAM312Survival_ProjectSurvive_Source_ProjectSurvive_PlayerChar_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_APlayerChar, APlayerChar::StaticClass, TEXT("APlayerChar"), &Z_Registration_Info_UClass_APlayerChar, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APlayerChar), 2164629695U) },
+		{ Z_Construct_UClass_APlayerChar, APlayerChar::StaticClass, TEXT("APlayerChar"), &Z_Registration_Info_UClass_APlayerChar, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APlayerChar), 4278811179U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scott_Desktop_GAM312Survival_ProjectSurvive_Source_ProjectSurvive_PlayerChar_h_1594805440(TEXT("/Script/ProjectSurvive"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scott_Desktop_GAM312Survival_ProjectSurvive_Source_ProjectSurvive_PlayerChar_h_3994932905(TEXT("/Script/ProjectSurvive"),
 	Z_CompiledInDeferFile_FID_Users_scott_Desktop_GAM312Survival_ProjectSurvive_Source_ProjectSurvive_PlayerChar_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_scott_Desktop_GAM312Survival_ProjectSurvive_Source_ProjectSurvive_PlayerChar_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

@@ -48,6 +48,7 @@ void APlayerChar::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	PlayerInputComponent->BindAxis("Turn", this, &APlayerChar::AddControllerYawInput);
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &APlayerChar::StartJump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &APlayerChar::StopJump);
+	PlayerInputComponent->BindAction("Interact", IE_Pressed, this, &APlayerChar::FindObject);
 }
 
 void APlayerChar::MoveForward(float axisValue)
@@ -74,6 +75,43 @@ void APlayerChar::StopJump()
 
 void APlayerChar::FindObject()
 {
+	FHitResult HitResult;
+	FVector StartLocation = PlayerCamComp->GetComponentLocation();
+	FVector Direction = PlayerCamComp->GetForwardVector() * 800.0f;
+	FVector EndLocation = StartLocation + Direction;
+
+	FCollisionQueryParams QueryParams;
+	QueryParams.AddIgnoredActor(this);
+	QueryParams.bTraceComplex = true;
+	QueryParams.bReturnFaceIndex = true;
+
+	if (GetWorld()->LineTraceSingleByChannel(HitResult, StartLocation, EndLocation, ECC_Visibility, QueryParams))
+	{
+		AResource_M* HitResource = Cast<AResource_M>(HitResult.GetActor());
+
+		if (HitResource)
+		{
+			FString hitName = HitResource->resourceName;
+			int resourceValue = HitResource->resourceAmount;
+
+			HitResource->totalResource = HitResource->totalResource - resourceValue;
+
+			if (HitResource->totalResource > resourceValue)
+			{
+				GiveResource(resourceValue, hitName);
+
+				check(GEngine != nullptr);
+				GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Red, TEXT("Resource Collected"));
+			}
+			else
+			{
+				HitResource->Destroy();
+				check(GEngine != nullptr);
+				GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Green, TEXT("Resource Depleted"));
+			}
+		}
+
+	}
 }
 
 void APlayerChar::SetHealth(float amount)
@@ -131,5 +169,22 @@ void APlayerChar::DecreaseStats()
 	{
 		SetHealth(-3.0f);
 	}
+}
+
+void APlayerChar::GiveResource(float amount, FString resourceType)
+{
+	if (resourceType == TEXT("Wood"))
+	{
+		ResourcesArray[0] += amount;
+	}
+	if (resourceType == TEXT("Stone"))
+	{
+		ResourcesArray[1] += amount;
+	}
+	if (resourceType == TEXT("Berry"))
+	{
+		ResourcesArray[2] += amount;
+	}
+
 }
 
