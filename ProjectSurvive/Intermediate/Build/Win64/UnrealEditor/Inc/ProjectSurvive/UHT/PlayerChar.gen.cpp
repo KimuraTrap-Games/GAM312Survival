@@ -12,6 +12,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerChar() {}
 // Begin Cross Module References
 ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
+ENGINE_API UClass* Z_Construct_UClass_UMaterialInterface_NoRegister();
 PROJECTSURVIVE_API UClass* Z_Construct_UClass_APlayerChar();
 PROJECTSURVIVE_API UClass* Z_Construct_UClass_APlayerChar_NoRegister();
 UPackage* Z_Construct_UPackage__Script_ProjectSurvive();
@@ -505,6 +506,10 @@ struct Z_Construct_UClass_APlayerChar_Statics
 		{ "Category", "Resources" },
 		{ "ModuleRelativePath", "PlayerChar.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_hitDecal_MetaData[] = {
+		{ "Category", "HitMarker" },
+		{ "ModuleRelativePath", "PlayerChar.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_PlayerCamComp;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_Health;
@@ -518,6 +523,7 @@ struct Z_Construct_UClass_APlayerChar_Statics
 	static const UECodeGen_Private::FArrayPropertyParams NewProp_ResourcesArray;
 	static const UECodeGen_Private::FStrPropertyParams NewProp_ResourcesNameArray_Inner;
 	static const UECodeGen_Private::FArrayPropertyParams NewProp_ResourcesNameArray;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_hitDecal;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
@@ -551,6 +557,7 @@ const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_APlayerChar_Stati
 const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_APlayerChar_Statics::NewProp_ResourcesArray = { "ResourcesArray", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlayerChar, ResourcesArray), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ResourcesArray_MetaData), NewProp_ResourcesArray_MetaData) };
 const UECodeGen_Private::FStrPropertyParams Z_Construct_UClass_APlayerChar_Statics::NewProp_ResourcesNameArray_Inner = { "ResourcesNameArray", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_APlayerChar_Statics::NewProp_ResourcesNameArray = { "ResourcesNameArray", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlayerChar, ResourcesNameArray), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ResourcesNameArray_MetaData), NewProp_ResourcesNameArray_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayerChar_Statics::NewProp_hitDecal = { "hitDecal", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlayerChar, hitDecal), Z_Construct_UClass_UMaterialInterface_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_hitDecal_MetaData), NewProp_hitDecal_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlayerChar_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerChar_Statics::NewProp_PlayerCamComp,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerChar_Statics::NewProp_Health,
@@ -564,6 +571,7 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlayerCh
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerChar_Statics::NewProp_ResourcesArray,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerChar_Statics::NewProp_ResourcesNameArray_Inner,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerChar_Statics::NewProp_ResourcesNameArray,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerChar_Statics::NewProp_hitDecal,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_APlayerChar_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_APlayerChar_Statics::DependentSingletons[])() = {
@@ -606,10 +614,10 @@ APlayerChar::~APlayerChar() {}
 struct Z_CompiledInDeferFile_FID_Users_scott_Desktop_GAM312Survival_ProjectSurvive_Source_ProjectSurvive_PlayerChar_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_APlayerChar, APlayerChar::StaticClass, TEXT("APlayerChar"), &Z_Registration_Info_UClass_APlayerChar, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APlayerChar), 4278811179U) },
+		{ Z_Construct_UClass_APlayerChar, APlayerChar::StaticClass, TEXT("APlayerChar"), &Z_Registration_Info_UClass_APlayerChar, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APlayerChar), 1576480612U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scott_Desktop_GAM312Survival_ProjectSurvive_Source_ProjectSurvive_PlayerChar_h_3994932905(TEXT("/Script/ProjectSurvive"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scott_Desktop_GAM312Survival_ProjectSurvive_Source_ProjectSurvive_PlayerChar_h_3022515405(TEXT("/Script/ProjectSurvive"),
 	Z_CompiledInDeferFile_FID_Users_scott_Desktop_GAM312Survival_ProjectSurvive_Source_ProjectSurvive_PlayerChar_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_scott_Desktop_GAM312Survival_ProjectSurvive_Source_ProjectSurvive_PlayerChar_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
