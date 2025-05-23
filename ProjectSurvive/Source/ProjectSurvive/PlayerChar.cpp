@@ -1,6 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-
 #include "PlayerChar.h"
 
 // Sets default values
@@ -13,6 +10,11 @@ APlayerChar::APlayerChar()
 	PlayerCamComp->SetupAttachment(GetMesh(), "head");
 
 	PlayerCamComp->bUsePawnControlRotation = true;
+
+	ResourcesArray.SetNum(3);
+	ResourcesNameArray.Add(TEXT("Wood"));
+	ResourcesNameArray.Add(TEXT("Stone"));
+	ResourcesNameArray.Add(TEXT("Berry"));
 
 
 

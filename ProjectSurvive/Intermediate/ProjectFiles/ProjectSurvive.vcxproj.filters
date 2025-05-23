@@ -47,5 +47,11 @@
     <ClCompile Include="..\..\Source\ProjectSurvive\ProjectSurvive.h">
       <Filter>Source\ProjectSurvive</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\ProjectSurvive\Resource_M.cpp">
+      <Filter>Source\ProjectSurvive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ProjectSurvive\Resource_M.h">
+      <Filter>Source\ProjectSurvive</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
