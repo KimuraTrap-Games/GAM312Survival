@@ -37,13 +37,15 @@
 /FUNCTIONPADMIN:6
 /NOIMPLIB
 "C:\Users\scott\Desktop\GAM312Survival\ProjectSurvive\Intermediate\Build\Win64\x64\ProjectSurviveEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.Project.NonOptimized.ValApi.Cpp20.InclOrderUnreal5_3.h.obj"
+"C:\Users\scott\Desktop\GAM312Survival\ProjectSurvive\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\ProjectSurvive\BuildingPart.gen.cpp.obj"
 "C:\Users\scott\Desktop\GAM312Survival\ProjectSurvive\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\ProjectSurvive\PlayerChar.gen.cpp.obj"
 "C:\Users\scott\Desktop\GAM312Survival\ProjectSurvive\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\ProjectSurvive\ProjectSurvive.init.gen.cpp.obj"
 "C:\Users\scott\Desktop\GAM312Survival\ProjectSurvive\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\ProjectSurvive\Resource_M.gen.cpp.obj"
-"C:\Users\scott\Desktop\GAM312Survival\ProjectSurvive\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\ProjectSurvive\PlayerChar.cpp.obj"
 "C:\Users\scott\Desktop\GAM312Survival\ProjectSurvive\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\ProjectSurvive\ProjectSurvive.cpp.obj"
 "C:\Users\scott\Desktop\GAM312Survival\ProjectSurvive\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\ProjectSurvive\Resource_M.cpp.obj"
 "C:\Users\scott\Desktop\GAM312Survival\ProjectSurvive\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\ProjectSurvive\PerModuleInline.gen.cpp.obj"
+"C:\Users\scott\Desktop\GAM312Survival\ProjectSurvive\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\ProjectSurvive\BuildingPart.cpp.obj"
+"C:\Users\scott\Desktop\GAM312Survival\ProjectSurvive\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\ProjectSurvive\PlayerChar.cpp.obj"
 "C:\Users\scott\Desktop\GAM312Survival\ProjectSurvive\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\ProjectSurvive\Default.rc2.res"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\UnrealEditor-Engine.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Core\UnrealEditor-Core.lib"

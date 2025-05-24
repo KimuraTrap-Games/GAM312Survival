@@ -7,12 +7,14 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Users\scott\Desktop\GAM312Survival\ProjectSurvive\Intermediate\Build\Win64\x64\ProjectSurviveEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.obj"
+"C:\Users\scott\Desktop\GAM312Survival\ProjectSurvive\Intermediate\Build\Win64\x64\UnrealEditor\Development\ProjectSurvive\BuildingPart.gen.cpp.obj"
 "C:\Users\scott\Desktop\GAM312Survival\ProjectSurvive\Intermediate\Build\Win64\x64\UnrealEditor\Development\ProjectSurvive\PlayerChar.gen.cpp.obj"
 "C:\Users\scott\Desktop\GAM312Survival\ProjectSurvive\Intermediate\Build\Win64\x64\UnrealEditor\Development\ProjectSurvive\ProjectSurvive.init.gen.cpp.obj"
 "C:\Users\scott\Desktop\GAM312Survival\ProjectSurvive\Intermediate\Build\Win64\x64\UnrealEditor\Development\ProjectSurvive\Resource_M.gen.cpp.obj"
 "C:\Users\scott\Desktop\GAM312Survival\ProjectSurvive\Intermediate\Build\Win64\x64\UnrealEditor\Development\ProjectSurvive\ProjectSurvive.cpp.obj"
-"C:\Users\scott\Desktop\GAM312Survival\ProjectSurvive\Intermediate\Build\Win64\x64\UnrealEditor\Development\ProjectSurvive\PerModuleInline.gen.cpp.obj"
-"C:\Users\scott\Desktop\GAM312Survival\ProjectSurvive\Intermediate\Build\Win64\x64\UnrealEditor\Development\ProjectSurvive\PlayerChar.cpp.obj"
 "C:\Users\scott\Desktop\GAM312Survival\ProjectSurvive\Intermediate\Build\Win64\x64\UnrealEditor\Development\ProjectSurvive\Resource_M.cpp.obj"
+"C:\Users\scott\Desktop\GAM312Survival\ProjectSurvive\Intermediate\Build\Win64\x64\UnrealEditor\Development\ProjectSurvive\PerModuleInline.gen.cpp.obj"
+"C:\Users\scott\Desktop\GAM312Survival\ProjectSurvive\Intermediate\Build\Win64\x64\UnrealEditor\Development\ProjectSurvive\BuildingPart.cpp.obj"
+"C:\Users\scott\Desktop\GAM312Survival\ProjectSurvive\Intermediate\Build\Win64\x64\UnrealEditor\Development\ProjectSurvive\PlayerChar.cpp.obj"
 "C:\Users\scott\Desktop\GAM312Survival\ProjectSurvive\Intermediate\Build\Win64\x64\UnrealEditor\Development\ProjectSurvive\Default.rc2.res"
 /OUT:"C:\Users\scott\Desktop\GAM312Survival\ProjectSurvive\Intermediate\Build\Win64\x64\UnrealEditor\Development\ProjectSurvive\UnrealEditor-ProjectSurvive.lib"

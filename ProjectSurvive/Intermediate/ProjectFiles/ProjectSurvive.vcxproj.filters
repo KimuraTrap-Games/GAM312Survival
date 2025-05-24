@@ -32,6 +32,12 @@
     <Filter Include="Source\ProjectSurvive">
       <UniqueIdentifier>{FEADE123-BD8C-37FD-BE4A-A6C61D1D9417}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\ProjectSurvive\BuildingPart.cpp">
+      <Filter>Source\ProjectSurvive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ProjectSurvive\BuildingPart.h">
+      <Filter>Source\ProjectSurvive</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\ProjectSurvive\PlayerChar.cpp">
       <Filter>Source\ProjectSurvive</Filter>
     </ClCompile>

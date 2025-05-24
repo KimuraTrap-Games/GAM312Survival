@@ -10,9 +10,11 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodePlayerChar() {}
 
 // Begin Cross Module References
+COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_UMaterialInterface_NoRegister();
+PROJECTSURVIVE_API UClass* Z_Construct_UClass_ABuildingPart_NoRegister();
 PROJECTSURVIVE_API UClass* Z_Construct_UClass_APlayerChar();
 PROJECTSURVIVE_API UClass* Z_Construct_UClass_APlayerChar_NoRegister();
 UPackage* Z_Construct_UPackage__Script_ProjectSurvive();
@@ -207,6 +209,35 @@ DEFINE_FUNCTION(APlayerChar::execMoveRight)
 }
 // End Class APlayerChar Function MoveRight
 
+// Begin Class APlayerChar Function RotateBuilding
+struct Z_Construct_UFunction_APlayerChar_RotateBuilding_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "PlayerChar.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_APlayerChar_RotateBuilding_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APlayerChar, nullptr, "RotateBuilding", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerChar_RotateBuilding_Statics::Function_MetaDataParams), Z_Construct_UFunction_APlayerChar_RotateBuilding_Statics::Function_MetaDataParams) };
+UFunction* Z_Construct_UFunction_APlayerChar_RotateBuilding()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_APlayerChar_RotateBuilding_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(APlayerChar::execRotateBuilding)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->RotateBuilding();
+	P_NATIVE_END;
+}
+// End Class APlayerChar Function RotateBuilding
+
 // Begin Class APlayerChar Function SetHealth
 struct Z_Construct_UFunction_APlayerChar_SetHealth_Statics
 {
@@ -375,6 +406,58 @@ DEFINE_FUNCTION(APlayerChar::execSetThirst)
 }
 // End Class APlayerChar Function SetThirst
 
+// Begin Class APlayerChar Function SpawnBuilding
+struct Z_Construct_UFunction_APlayerChar_SpawnBuilding_Statics
+{
+	struct PlayerChar_eventSpawnBuilding_Parms
+	{
+		int32 buildingID;
+		bool isSuccess;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "PlayerChar.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FIntPropertyParams NewProp_buildingID;
+	static void NewProp_isSuccess_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_isSuccess;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_APlayerChar_SpawnBuilding_Statics::NewProp_buildingID = { "buildingID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(PlayerChar_eventSpawnBuilding_Parms, buildingID), METADATA_PARAMS(0, nullptr) };
+void Z_Construct_UFunction_APlayerChar_SpawnBuilding_Statics::NewProp_isSuccess_SetBit(void* Obj)
+{
+	((PlayerChar_eventSpawnBuilding_Parms*)Obj)->isSuccess = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_APlayerChar_SpawnBuilding_Statics::NewProp_isSuccess = { "isSuccess", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(PlayerChar_eventSpawnBuilding_Parms), &Z_Construct_UFunction_APlayerChar_SpawnBuilding_Statics::NewProp_isSuccess_SetBit, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APlayerChar_SpawnBuilding_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APlayerChar_SpawnBuilding_Statics::NewProp_buildingID,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APlayerChar_SpawnBuilding_Statics::NewProp_isSuccess,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerChar_SpawnBuilding_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_APlayerChar_SpawnBuilding_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APlayerChar, nullptr, "SpawnBuilding", nullptr, nullptr, Z_Construct_UFunction_APlayerChar_SpawnBuilding_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerChar_SpawnBuilding_Statics::PropPointers), sizeof(Z_Construct_UFunction_APlayerChar_SpawnBuilding_Statics::PlayerChar_eventSpawnBuilding_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04420401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerChar_SpawnBuilding_Statics::Function_MetaDataParams), Z_Construct_UFunction_APlayerChar_SpawnBuilding_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_APlayerChar_SpawnBuilding_Statics::PlayerChar_eventSpawnBuilding_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_APlayerChar_SpawnBuilding()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_APlayerChar_SpawnBuilding_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(APlayerChar::execSpawnBuilding)
+{
+	P_GET_PROPERTY(FIntProperty,Z_Param_buildingID);
+	P_GET_UBOOL_REF(Z_Param_Out_isSuccess);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->SpawnBuilding(Z_Param_buildingID,Z_Param_Out_isSuccess);
+	P_NATIVE_END;
+}
+// End Class APlayerChar Function SpawnBuilding
+
 // Begin Class APlayerChar Function StartJump
 struct Z_Construct_UFunction_APlayerChar_StartJump_Statics
 {
@@ -433,6 +516,58 @@ DEFINE_FUNCTION(APlayerChar::execStopJump)
 }
 // End Class APlayerChar Function StopJump
 
+// Begin Class APlayerChar Function UpdateResources
+struct Z_Construct_UFunction_APlayerChar_UpdateResources_Statics
+{
+	struct PlayerChar_eventUpdateResources_Parms
+	{
+		float woodAmount;
+		float stoneAmount;
+		FString buildingObject;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "PlayerChar.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_woodAmount;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_stoneAmount;
+	static const UECodeGen_Private::FStrPropertyParams NewProp_buildingObject;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_APlayerChar_UpdateResources_Statics::NewProp_woodAmount = { "woodAmount", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(PlayerChar_eventUpdateResources_Parms, woodAmount), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_APlayerChar_UpdateResources_Statics::NewProp_stoneAmount = { "stoneAmount", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(PlayerChar_eventUpdateResources_Parms, stoneAmount), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_APlayerChar_UpdateResources_Statics::NewProp_buildingObject = { "buildingObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(PlayerChar_eventUpdateResources_Parms, buildingObject), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APlayerChar_UpdateResources_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APlayerChar_UpdateResources_Statics::NewProp_woodAmount,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APlayerChar_UpdateResources_Statics::NewProp_stoneAmount,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APlayerChar_UpdateResources_Statics::NewProp_buildingObject,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerChar_UpdateResources_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_APlayerChar_UpdateResources_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APlayerChar, nullptr, "UpdateResources", nullptr, nullptr, Z_Construct_UFunction_APlayerChar_UpdateResources_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerChar_UpdateResources_Statics::PropPointers), sizeof(Z_Construct_UFunction_APlayerChar_UpdateResources_Statics::PlayerChar_eventUpdateResources_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerChar_UpdateResources_Statics::Function_MetaDataParams), Z_Construct_UFunction_APlayerChar_UpdateResources_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_APlayerChar_UpdateResources_Statics::PlayerChar_eventUpdateResources_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_APlayerChar_UpdateResources()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_APlayerChar_UpdateResources_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(APlayerChar::execUpdateResources)
+{
+	P_GET_PROPERTY(FFloatProperty,Z_Param_woodAmount);
+	P_GET_PROPERTY(FFloatProperty,Z_Param_stoneAmount);
+	P_GET_PROPERTY(FStrProperty,Z_Param_buildingObject);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->UpdateResources(Z_Param_woodAmount,Z_Param_stoneAmount,Z_Param_buildingObject);
+	P_NATIVE_END;
+}
+// End Class APlayerChar Function UpdateResources
+
 // Begin Class APlayerChar
 void APlayerChar::StaticRegisterNativesAPlayerChar()
 {
@@ -443,12 +578,15 @@ void APlayerChar::StaticRegisterNativesAPlayerChar()
 		{ "GiveResource", &APlayerChar::execGiveResource },
 		{ "MoveForward", &APlayerChar::execMoveForward },
 		{ "MoveRight", &APlayerChar::execMoveRight },
+		{ "RotateBuilding", &APlayerChar::execRotateBuilding },
 		{ "SetHealth", &APlayerChar::execSetHealth },
 		{ "SetHunger", &APlayerChar::execSetHunger },
 		{ "SetStamina", &APlayerChar::execSetStamina },
 		{ "SetThirst", &APlayerChar::execSetThirst },
+		{ "SpawnBuilding", &APlayerChar::execSpawnBuilding },
 		{ "StartJump", &APlayerChar::execStartJump },
 		{ "StopJump", &APlayerChar::execStopJump },
+		{ "UpdateResources", &APlayerChar::execUpdateResources },
 	};
 	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
@@ -510,6 +648,20 @@ struct Z_Construct_UClass_APlayerChar_Statics
 		{ "Category", "HitMarker" },
 		{ "ModuleRelativePath", "PlayerChar.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BuildingArray_MetaData[] = {
+		{ "Category", "Building Supplies" },
+		{ "ModuleRelativePath", "PlayerChar.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_isBuilding_MetaData[] = {
+		{ "ModuleRelativePath", "PlayerChar.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BuildingPartClass_MetaData[] = {
+		{ "Category", "PlayerChar" },
+		{ "ModuleRelativePath", "PlayerChar.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_spawnedPart_MetaData[] = {
+		{ "ModuleRelativePath", "PlayerChar.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_PlayerCamComp;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_Health;
@@ -524,6 +676,12 @@ struct Z_Construct_UClass_APlayerChar_Statics
 	static const UECodeGen_Private::FStrPropertyParams NewProp_ResourcesNameArray_Inner;
 	static const UECodeGen_Private::FArrayPropertyParams NewProp_ResourcesNameArray;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_hitDecal;
+	static const UECodeGen_Private::FIntPropertyParams NewProp_BuildingArray_Inner;
+	static const UECodeGen_Private::FArrayPropertyParams NewProp_BuildingArray;
+	static void NewProp_isBuilding_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_isBuilding;
+	static const UECodeGen_Private::FClassPropertyParams NewProp_BuildingPartClass;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_spawnedPart;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
@@ -532,12 +690,15 @@ struct Z_Construct_UClass_APlayerChar_Statics
 		{ &Z_Construct_UFunction_APlayerChar_GiveResource, "GiveResource" }, // 3324902622
 		{ &Z_Construct_UFunction_APlayerChar_MoveForward, "MoveForward" }, // 1389377169
 		{ &Z_Construct_UFunction_APlayerChar_MoveRight, "MoveRight" }, // 2504081276
+		{ &Z_Construct_UFunction_APlayerChar_RotateBuilding, "RotateBuilding" }, // 2567342092
 		{ &Z_Construct_UFunction_APlayerChar_SetHealth, "SetHealth" }, // 1162481591
 		{ &Z_Construct_UFunction_APlayerChar_SetHunger, "SetHunger" }, // 4015290587
 		{ &Z_Construct_UFunction_APlayerChar_SetStamina, "SetStamina" }, // 2017926260
 		{ &Z_Construct_UFunction_APlayerChar_SetThirst, "SetThirst" }, // 3585774191
+		{ &Z_Construct_UFunction_APlayerChar_SpawnBuilding, "SpawnBuilding" }, // 212814008
 		{ &Z_Construct_UFunction_APlayerChar_StartJump, "StartJump" }, // 4160331490
 		{ &Z_Construct_UFunction_APlayerChar_StopJump, "StopJump" }, // 1430281185
+		{ &Z_Construct_UFunction_APlayerChar_UpdateResources, "UpdateResources" }, // 302863605
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -558,6 +719,15 @@ const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_APlayerChar_Sta
 const UECodeGen_Private::FStrPropertyParams Z_Construct_UClass_APlayerChar_Statics::NewProp_ResourcesNameArray_Inner = { "ResourcesNameArray", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_APlayerChar_Statics::NewProp_ResourcesNameArray = { "ResourcesNameArray", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlayerChar, ResourcesNameArray), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ResourcesNameArray_MetaData), NewProp_ResourcesNameArray_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayerChar_Statics::NewProp_hitDecal = { "hitDecal", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlayerChar, hitDecal), Z_Construct_UClass_UMaterialInterface_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_hitDecal_MetaData), NewProp_hitDecal_MetaData) };
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_APlayerChar_Statics::NewProp_BuildingArray_Inner = { "BuildingArray", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_APlayerChar_Statics::NewProp_BuildingArray = { "BuildingArray", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlayerChar, BuildingArray), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_BuildingArray_MetaData), NewProp_BuildingArray_MetaData) };
+void Z_Construct_UClass_APlayerChar_Statics::NewProp_isBuilding_SetBit(void* Obj)
+{
+	((APlayerChar*)Obj)->isBuilding = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APlayerChar_Statics::NewProp_isBuilding = { "isBuilding", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(APlayerChar), &Z_Construct_UClass_APlayerChar_Statics::NewProp_isBuilding_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_isBuilding_MetaData), NewProp_isBuilding_MetaData) };
+const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_APlayerChar_Statics::NewProp_BuildingPartClass = { "BuildingPartClass", nullptr, (EPropertyFlags)0x0014000000010005, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlayerChar, BuildingPartClass), Z_Construct_UClass_UClass, Z_Construct_UClass_ABuildingPart_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_BuildingPartClass_MetaData), NewProp_BuildingPartClass_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayerChar_Statics::NewProp_spawnedPart = { "spawnedPart", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlayerChar, spawnedPart), Z_Construct_UClass_ABuildingPart_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_spawnedPart_MetaData), NewProp_spawnedPart_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlayerChar_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerChar_Statics::NewProp_PlayerCamComp,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerChar_Statics::NewProp_Health,
@@ -572,6 +742,11 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlayerCh
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerChar_Statics::NewProp_ResourcesNameArray_Inner,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerChar_Statics::NewProp_ResourcesNameArray,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerChar_Statics::NewProp_hitDecal,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerChar_Statics::NewProp_BuildingArray_Inner,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerChar_Statics::NewProp_BuildingArray,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerChar_Statics::NewProp_isBuilding,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerChar_Statics::NewProp_BuildingPartClass,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerChar_Statics::NewProp_spawnedPart,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_APlayerChar_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_APlayerChar_Statics::DependentSingletons[])() = {
@@ -614,10 +789,10 @@ APlayerChar::~APlayerChar() {}
 struct Z_CompiledInDeferFile_FID_Users_scott_Desktop_GAM312Survival_ProjectSurvive_Source_ProjectSurvive_PlayerChar_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_APlayerChar, APlayerChar::StaticClass, TEXT("APlayerChar"), &Z_Registration_Info_UClass_APlayerChar, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APlayerChar), 1576480612U) },
+		{ Z_Construct_UClass_APlayerChar, APlayerChar::StaticClass, TEXT("APlayerChar"), &Z_Registration_Info_UClass_APlayerChar, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APlayerChar), 3879765755U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scott_Desktop_GAM312Survival_ProjectSurvive_Source_ProjectSurvive_PlayerChar_h_3022515405(TEXT("/Script/ProjectSurvive"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scott_Desktop_GAM312Survival_ProjectSurvive_Source_ProjectSurvive_PlayerChar_h_3473682973(TEXT("/Script/ProjectSurvive"),
 	Z_CompiledInDeferFile_FID_Users_scott_Desktop_GAM312Survival_ProjectSurvive_Source_ProjectSurvive_PlayerChar_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_scott_Desktop_GAM312Survival_ProjectSurvive_Source_ProjectSurvive_PlayerChar_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
