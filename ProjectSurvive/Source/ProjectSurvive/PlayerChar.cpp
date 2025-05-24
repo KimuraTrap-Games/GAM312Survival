@@ -232,7 +232,7 @@ void APlayerChar::UpdateResources(float woodAmount, float stoneAmount, FString b
 			BuildingArray[1] = BuildingArray[1] + 1;
 		}
 
-		if (buildingObject == "Roof")
+		if (buildingObject == "Ceiling")
 		{
 			BuildingArray[2] = BuildingArray[2] + 1;
 		}
