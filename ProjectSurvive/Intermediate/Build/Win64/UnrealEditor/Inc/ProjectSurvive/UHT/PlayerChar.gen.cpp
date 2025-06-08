@@ -17,6 +17,7 @@ ENGINE_API UClass* Z_Construct_UClass_UMaterialInterface_NoRegister();
 PROJECTSURVIVE_API UClass* Z_Construct_UClass_ABuildingPart_NoRegister();
 PROJECTSURVIVE_API UClass* Z_Construct_UClass_APlayerChar();
 PROJECTSURVIVE_API UClass* Z_Construct_UClass_APlayerChar_NoRegister();
+PROJECTSURVIVE_API UClass* Z_Construct_UClass_UObjectiveWidget_NoRegister();
 PROJECTSURVIVE_API UClass* Z_Construct_UClass_UPlayerWidget_NoRegister();
 UPackage* Z_Construct_UPackage__Script_ProjectSurvive();
 // End Cross Module References
@@ -668,6 +669,17 @@ struct Z_Construct_UClass_APlayerChar_Statics
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "PlayerChar.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_objWidget_MetaData[] = {
+		{ "Category", "PlayerChar" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "PlayerChar.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_objectsBuilt_MetaData[] = {
+		{ "ModuleRelativePath", "PlayerChar.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_matsCollected_MetaData[] = {
+		{ "ModuleRelativePath", "PlayerChar.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_PlayerCamComp;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_Health;
@@ -689,6 +701,9 @@ struct Z_Construct_UClass_APlayerChar_Statics
 	static const UECodeGen_Private::FClassPropertyParams NewProp_BuildingPartClass;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_spawnedPart;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_PlayerUI;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_objWidget;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_objectsBuilt;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_matsCollected;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
@@ -736,6 +751,9 @@ const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APlayerChar_Stat
 const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_APlayerChar_Statics::NewProp_BuildingPartClass = { "BuildingPartClass", nullptr, (EPropertyFlags)0x0014000000010005, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlayerChar, BuildingPartClass), Z_Construct_UClass_UClass, Z_Construct_UClass_ABuildingPart_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_BuildingPartClass_MetaData), NewProp_BuildingPartClass_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayerChar_Statics::NewProp_spawnedPart = { "spawnedPart", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlayerChar, spawnedPart), Z_Construct_UClass_ABuildingPart_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_spawnedPart_MetaData), NewProp_spawnedPart_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayerChar_Statics::NewProp_PlayerUI = { "PlayerUI", nullptr, (EPropertyFlags)0x001000000008000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlayerChar, PlayerUI), Z_Construct_UClass_UPlayerWidget_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_PlayerUI_MetaData), NewProp_PlayerUI_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayerChar_Statics::NewProp_objWidget = { "objWidget", nullptr, (EPropertyFlags)0x001000000008000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlayerChar, objWidget), Z_Construct_UClass_UObjectiveWidget_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_objWidget_MetaData), NewProp_objWidget_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayerChar_Statics::NewProp_objectsBuilt = { "objectsBuilt", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlayerChar, objectsBuilt), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_objectsBuilt_MetaData), NewProp_objectsBuilt_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayerChar_Statics::NewProp_matsCollected = { "matsCollected", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlayerChar, matsCollected), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_matsCollected_MetaData), NewProp_matsCollected_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlayerChar_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerChar_Statics::NewProp_PlayerCamComp,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerChar_Statics::NewProp_Health,
@@ -756,6 +774,9 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlayerCh
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerChar_Statics::NewProp_BuildingPartClass,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerChar_Statics::NewProp_spawnedPart,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerChar_Statics::NewProp_PlayerUI,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerChar_Statics::NewProp_objWidget,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerChar_Statics::NewProp_objectsBuilt,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerChar_Statics::NewProp_matsCollected,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_APlayerChar_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_APlayerChar_Statics::DependentSingletons[])() = {
@@ -798,10 +819,10 @@ APlayerChar::~APlayerChar() {}
 struct Z_CompiledInDeferFile_FID_Users_scott_Desktop_GAM312Survival_ProjectSurvive_Source_ProjectSurvive_PlayerChar_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_APlayerChar, APlayerChar::StaticClass, TEXT("APlayerChar"), &Z_Registration_Info_UClass_APlayerChar, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APlayerChar), 2443203343U) },
+		{ Z_Construct_UClass_APlayerChar, APlayerChar::StaticClass, TEXT("APlayerChar"), &Z_Registration_Info_UClass_APlayerChar, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APlayerChar), 3407484928U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scott_Desktop_GAM312Survival_ProjectSurvive_Source_ProjectSurvive_PlayerChar_h_3711387627(TEXT("/Script/ProjectSurvive"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scott_Desktop_GAM312Survival_ProjectSurvive_Source_ProjectSurvive_PlayerChar_h_2414059245(TEXT("/Script/ProjectSurvive"),
 	Z_CompiledInDeferFile_FID_Users_scott_Desktop_GAM312Survival_ProjectSurvive_Source_ProjectSurvive_PlayerChar_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_scott_Desktop_GAM312Survival_ProjectSurvive_Source_ProjectSurvive_PlayerChar_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

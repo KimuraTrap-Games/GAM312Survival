@@ -5,23 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/scott/Desktop/GAM312Survival/ProjectSurvive/Content/Widgets/Crafting_W.uasset",
-				"C:/Users/scott/Desktop/GAM312Survival/ProjectSurvive/Content/Building/BuildingPart_BP.uasset",
-				"C:/Users/scott/Desktop/GAM312Survival/ProjectSurvive/Content/Building/Wall_BP.uasset",
-				"C:/Users/scott/Desktop/GAM312Survival/ProjectSurvive/Content/Building/Floor_BP.uasset",
-				"C:/Users/scott/Desktop/GAM312Survival/ProjectSurvive/Content/Building/Ceiling_BP.uasset",
-				"C:/Users/scott/Desktop/GAM312Survival/ProjectSurvive/Content/Player/PlayerChar_BP.uasset",
-				"C:/Users/scott/Desktop/GAM312Survival/ProjectSurvive/Content/Building/BuildingPart_MESH.uasset",
-				"C:/Users/scott/Desktop/GAM312Survival/ProjectSurvive/Content/__ExternalActors__/DevMap/B/A1/WLC2YPKJUR794XSHBOLI9X.uasset",
-				"C:/Users/scott/Desktop/GAM312Survival/ProjectSurvive/Content/Widgets/Player_W.uasset",
-				"C:/Users/scott/Desktop/GAM312Survival/ProjectSurvive/Content/AI/AICont.uasset",
-				"C:/Users/scott/Desktop/GAM312Survival/ProjectSurvive/Content/AI/AIChar.uasset",
-				"C:/Users/scott/Desktop/GAM312Survival/ProjectSurvive/Content/__ExternalActors__/DevMap/8/MY/9W2BLMSHRM1RBDKZ7UA7P9.uasset",
-				"C:/Users/scott/Desktop/GAM312Survival/ProjectSurvive/Content/__ExternalActors__/DevMap/0/QT/JUCSEOSNHSMWEVL8276NAV.uasset",
-				"C:/Users/scott/Desktop/GAM312Survival/ProjectSurvive/Content/__ExternalActors__/DevMap/1/QN/F9RBNMU28Y4PCI4FJ2ARUP.uasset",
-				"C:/Users/scott/Desktop/GAM312Survival/ProjectSurvive/Content/__ExternalActors__/DevMap/7/NH/MVWXH2AX7DUGAKXEFZHG4T.uasset",
-				"C:/Users/scott/Desktop/GAM312Survival/ProjectSurvive/Content/__ExternalActors__/DevMap/7/6S/K703973OH16JQ8JPR2LK6J.uasset",
-				"C:/Users/scott/Desktop/GAM312Survival/ProjectSurvive/Content/_GENERATED/scott/BuildingPart_MESH.uasset"
+				"C:/Users/scott/Desktop/GAM312Survival/ProjectSurvive/Content/Widgets/Objective_W.uasset",
+				"C:/Users/scott/Desktop/GAM312Survival/ProjectSurvive/Content/Player/PlayerChar_BP.uasset"
 			]
 		}
 	]

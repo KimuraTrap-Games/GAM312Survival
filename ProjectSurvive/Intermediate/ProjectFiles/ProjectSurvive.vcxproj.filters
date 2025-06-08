@@ -35,6 +35,12 @@
     <ClCompile Include="..\..\Source\ProjectSurvive\BuildingPart.h">
       <Filter>Source\ProjectSurvive</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\ProjectSurvive\ObjectiveWidget.cpp">
+      <Filter>Source\ProjectSurvive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ProjectSurvive\ObjectiveWidget.h">
+      <Filter>Source\ProjectSurvive</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\ProjectSurvive\PlayerChar.cpp">
       <Filter>Source\ProjectSurvive</Filter>
     </ClCompile>
