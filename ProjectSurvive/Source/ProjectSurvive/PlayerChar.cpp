@@ -277,8 +277,17 @@ void APlayerChar::SpawnBuilding(int buildingID, bool& isSuccess)
 	}
 }
 
+// Prevents crashes when rotating the building part by updating to this.
 void APlayerChar::RotateBuilding()
 {
-	spawnedPart->AddActorWorldRotation(FRotator(0, 90, 0));
+	if (spawnedPart)
+	{
+		spawnedPart->AddActorWorldRotation(FRotator(0, 90, 0));
+	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("RotateBuilding() called but spawnedPart is null!"));
+	}
 }
+
 
