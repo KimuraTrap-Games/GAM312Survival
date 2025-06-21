@@ -1,0 +1,306 @@
+[+] Containers:
+ |- [+] Container: /Game/DevMap
+ |   |- [+] ActorDescs:
+ |   |   |- Guid:02ECB59D487AA691668EE2A12A33D936 NativeClass:/Script/NavigationSystem.RecastNavMesh Name:RecastNavMesh_UAID_107C6121B4FEAC6E02-Default Label:RecastNavMesh-Default SpatiallyLoaded:false EditorBounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeBounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:0F3D0794454545E4EA68DDBA12F7FDB9 NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_107C6121B4FE6D6B02_1671290673 Label:Box SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-260.000 Y=630.000 Z=-10.000), Max=(X=-260.000 Y=630.000 Z=-10.000) RuntimeBounds:IsValid=true, Min=(X=-260.000 Y=630.000 Z=-10.000), Max=(X=-260.000 Y=630.000 Z=-10.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:160ECC5448A79D30FA6A8F935A02D556 NativeClass:/Script/Engine.PlayerStart Name:PlayerStart_UAID_107C6121B4FEAD6A02_1935925879 Label:PlayerStart SpatiallyLoaded:false EditorBounds:IsValid=true, Min=(X=-8.000 Y=182.000 Z=-46.000), Max=(X=360.000 Y=438.000 Z=210.000) RuntimeBounds:IsValid=true, Min=(X=80.000 Y=270.000 Z=-10.000), Max=(X=160.000 Y=350.000 Z=174.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:17F481DD4D638D25CCE480B12F514DD7 NativeClass:/Script/Engine.WorldPartitionHLOD Name:DevMap_HLOD0_Instancing_00000000356a0585 Label:DevMap_HLOD0_Instancing/DevMap_MainGrid_L0_X-1_Y-1_Z0 SpatiallyLoaded:false EditorBounds:IsValid=true, Min=(X=-335.000 Y=-65.000 Z=0.000), Max=(X=-285.000 Y=-15.000 Z=200.000) RuntimeBounds:IsValid=true, Min=(X=-335.000 Y=-65.000 Z=0.000), Max=(X=-285.000 Y=-15.000 Z=200.000) RuntimeGrid:MainGrid:PersistentLevel EditorOnly:false RuntimeOnly:true HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false FolderPath:HLOD/DevMap_HLOD0_Instancing FolderGuid:8E06AA4D4FD0FCED6C90A0BA6D39F835
+ |   |   |- Guid:1C2F39AE4825C0B3703B2CB66FD1ABA9 BaseClass:/Game/AI/AIChar.AIChar_C NativeClass:/Script/Engine.Character Name:AIChar_C_UAID_107C6121B4FEAD6E02_1178063106 Label:AIChar2 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-454.000 Y=-670.000 Z=-10.967), Max=(X=-180.000 Y=-510.000 Z=167.514) RuntimeBounds:IsValid=true, Min=(X=-454.000 Y=-624.000 Z=-10.967), Max=(X=-386.000 Y=-556.000 Z=167.514) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:218E3B124735712D7EF272B4FB8E7FF6 NativeClass:/Script/Landscape.Landscape Name:Landscape_UAID_A85E45CFE404FBD100_1221515703 Label:Landscape SpatiallyLoaded:false EditorBounds:IsValid=true, Min=(X=-100800.000 Y=-100800.000 Z=100.000), Max=(X=-100800.000 Y=-100800.000 Z=100.000) RuntimeBounds:IsValid=true, Min=(X=-100800.000 Y=-100800.000 Z=100.000), Max=(X=-100800.000 Y=-100800.000 Z=100.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:253E3C8C41EE5C8EE0A9E3AAB5D8817A BaseClass:/Game/Resources/StoneResource.StoneResource_C NativeClass:/Script/ProjectSurvive.Resource_M Name:StoneResource_C_UAID_107C6121B4FEFC7302_1107627301 Label:StoneResource9 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-43.050 Y=-203.050 Z=-10.550), Max=(X=-15.000 Y=-176.950 Z=15.550) RuntimeBounds:IsValid=true, Min=(X=-43.050 Y=-203.050 Z=-10.550), Max=(X=-15.000 Y=-176.950 Z=15.550) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:45168D604BCD9C6422B065AA4673B00F BaseClass:/Game/Resources/StoneResource.StoneResource_C NativeClass:/Script/ProjectSurvive.Resource_M Name:StoneResource_C_UAID_107C6121B4FEFC7302_1103226299 Label:StoneResource7 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-143.050 Y=-93.050 Z=-10.550), Max=(X=-115.000 Y=-66.950 Z=15.550) RuntimeBounds:IsValid=true, Min=(X=-143.050 Y=-93.050 Z=-10.550), Max=(X=-115.000 Y=-66.950 Z=15.550) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:45A38C67420647478DC9DDBFCC52D2C3 BaseClass:/Game/Resources/StoneResource.StoneResource_C NativeClass:/Script/ProjectSurvive.Resource_M Name:StoneResource_C_UAID_107C6121B4FEFC7302_1106033300 Label:StoneResource8 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-143.050 Y=-203.050 Z=-10.550), Max=(X=-115.000 Y=-176.950 Z=15.550) RuntimeBounds:IsValid=true, Min=(X=-143.050 Y=-203.050 Z=-10.550), Max=(X=-115.000 Y=-176.950 Z=15.550) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:495FA14247B4756A851810A46D577006 BaseClass:/Game/Resources/BerryResource.BerryResource_C NativeClass:/Script/ProjectSurvive.Resource_M Name:BerryResource_C_UAID_107C6121B4FEFB7302_2140948120 Label:BerryResource SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-144.767 Y=-1044.767 Z=-14.767), Max=(X=-20.000 Y=-935.233 Z=94.767) RuntimeBounds:IsValid=true, Min=(X=-144.767 Y=-1044.767 Z=-14.767), Max=(X=-20.000 Y=-935.233 Z=94.767) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:5368FABB47D6D9580DAECA8B0417BF92 NativeClass:/Script/Engine.WorldDataLayers Name:WorldDataLayers Label:WorldDataLayers-1 SpatiallyLoaded:false EditorBounds:IsValid=false, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeBounds:IsValid=false, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:true
+ |   |   |- Guid:60ED7F524A735ECDC62FD69963DAB429 BaseClass:/Game/Resources/WoodResource.WoodResource_C NativeClass:/Script/ProjectSurvive.Resource_M Name:WoodResource_C_UAID_107C6121B4FEFC7302_1323033311 Label:WoodResource7 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-579.282 Y=-79.282 Z=-70.000), Max=(X=-400.718 Y=109.282 Z=640.000) RuntimeBounds:IsValid=true, Min=(X=-579.282 Y=-79.282 Z=-70.000), Max=(X=-400.718 Y=109.282 Z=640.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:62A3D73F45EF282807D39BB4F85F1D9E NativeClass:/Script/Engine.WorldPartitionHLOD Name:DevMap_HLOD0_Instancing_000000000ad5eacd Label:DevMap_HLOD0_Instancing/DevMap_MainGrid_L0_X0_Y0_Z-1 SpatiallyLoaded:false EditorBounds:IsValid=true, Min=(X=-1000.000 Y=-1000.000 Z=-10.000), Max=(X=1000.000 Y=1000.000 Z=-10.000) RuntimeBounds:IsValid=true, Min=(X=-1000.000 Y=-1000.000 Z=-10.000), Max=(X=1000.000 Y=1000.000 Z=-10.000) RuntimeGrid:MainGrid:PersistentLevel EditorOnly:false RuntimeOnly:true HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false FolderPath:HLOD/DevMap_HLOD0_Instancing FolderGuid:8E06AA4D4FD0FCED6C90A0BA6D39F835
+ |   |   |- Guid:6C1906FC48165393DA4884BF102AABAA BaseClass:/Game/Resources/BerryResource.BerryResource_C NativeClass:/Script/ProjectSurvive.Resource_M Name:BerryResource_C_UAID_107C6121B4FEFC7302_1142223303 Label:BerryResource2 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-144.767 Y=-754.767 Z=-14.767), Max=(X=-20.000 Y=-645.233 Z=94.767) RuntimeBounds:IsValid=true, Min=(X=-144.767 Y=-754.767 Z=-14.767), Max=(X=-20.000 Y=-645.233 Z=94.767) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:70D8A4B646A8FD4EC8E1D18D6182BD26 BaseClass:/Game/AI/AIChar.AIChar_C NativeClass:/Script/Engine.Character Name:AIChar_C_UAID_107C6121B4FEAD6E02_1181089107 Label:AIChar3 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=1306.000 Y=-1230.000 Z=-10.967), Max=(X=1580.000 Y=-1070.000 Z=167.514) RuntimeBounds:IsValid=true, Min=(X=1306.000 Y=-1184.000 Z=-10.967), Max=(X=1374.000 Y=-1116.000 Z=167.514) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:71080F71431E55D6C373BDA6015DF930 BaseClass:/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky.Ultra_Dynamic_Sky_C NativeClass:/Script/Engine.Actor Name:Ultra_Dynamic_Sky_C_UAID_107C6121B4FE4B6B02_1235737694 Label:Ultra_Dynamic_Sky SpatiallyLoaded:false EditorBounds:IsValid=true, Min=(X=-4398046511104.000 Y=-4398046511104.000 Z=-4398046511104.000), Max=(X=4398046511104.000 Y=4398046511104.000 Z=4398046511104.000) RuntimeBounds:IsValid=true, Min=(X=-9369290625.000 Y=-9369288437.500 Z=-10538806757.500), Max=(X=9369286875.000 Y=9369286562.500 Z=9390708242.500) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:726978B045BC263FE9C595A88E4F2918 BaseClass:/Game/Resources/WoodResource.WoodResource_C NativeClass:/Script/ProjectSurvive.Resource_M Name:WoodResource_C_UAID_107C6121B4FEFC7302_1319225308 Label:WoodResource4 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-789.282 Y=260.718 Z=-70.000), Max=(X=-610.718 Y=449.282 Z=640.000) RuntimeBounds:IsValid=true, Min=(X=-789.282 Y=260.718 Z=-70.000), Max=(X=-610.718 Y=449.282 Z=640.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:733FBBC341394037B61F439119598933 BaseClass:/Game/Resources/WoodResource.WoodResource_C NativeClass:/Script/ProjectSurvive.Resource_M Name:WoodResource_C_UAID_107C6121B4FEFC7302_1321589310 Label:WoodResource6 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-579.282 Y=470.718 Z=-70.000), Max=(X=-400.718 Y=659.282 Z=640.000) RuntimeBounds:IsValid=true, Min=(X=-579.282 Y=470.718 Z=-70.000), Max=(X=-400.718 Y=659.282 Z=640.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:75AC464A48173ED8928217B46B4E214E BaseClass:/Game/AI/AIChar.AIChar_C NativeClass:/Script/Engine.Character Name:AIChar_C_UAID_107C6121B4FEAD6E02_1173416105 Label:AIChar SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-244.000 Y=1270.000 Z=-10.967), Max=(X=30.000 Y=1430.000 Z=167.514) RuntimeBounds:IsValid=true, Min=(X=-244.000 Y=1316.000 Z=-10.967), Max=(X=-176.000 Y=1384.000 Z=167.514) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:7CF0511749FBBF15FCEAD8B1DB3D396B BaseClass:/Game/Resources/BerryResource.BerryResource_C NativeClass:/Script/ProjectSurvive.Resource_M Name:BerryResource_C_UAID_107C6121B4FEFC7302_1148376305 Label:BerryResource4 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=35.233 Y=-904.767 Z=-14.767), Max=(X=160.000 Y=-795.233 Z=94.767) RuntimeBounds:IsValid=true, Min=(X=35.233 Y=-904.767 Z=-14.767), Max=(X=160.000 Y=-795.233 Z=94.767) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:8532B76A43AD28EC840A779B5D63E687 NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_107C6121B4FE076702_1102368495 Label:Plane SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-2000.000 Y=-2000.000 Z=-10.000), Max=(X=2000.000 Y=2000.000 Z=-10.000) RuntimeBounds:IsValid=true, Min=(X=-2000.000 Y=-2000.000 Z=-10.000), Max=(X=2000.000 Y=2000.000 Z=-10.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:95C7FD504AA889B0802BAEAD12A9B777 BaseClass:/Game/Resources/BerryResource.BerryResource_C NativeClass:/Script/ProjectSurvive.Resource_M Name:BerryResource_C_UAID_107C6121B4FEFC7302_1150262306 Label:BerryResource5 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=185.233 Y=-904.767 Z=-14.767), Max=(X=310.000 Y=-795.233 Z=94.767) RuntimeBounds:IsValid=true, Min=(X=185.233 Y=-904.767 Z=-14.767), Max=(X=310.000 Y=-795.233 Z=94.767) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:9F36F902453DE2D7B35CE3A5843D9E88 BaseClass:/Game/Resources/StoneResource.StoneResource_C NativeClass:/Script/ProjectSurvive.Resource_M Name:StoneResource_C_UAID_107C6121B4FEFC7302_1100847297 Label:StoneResource5 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-93.050 Y=-293.050 Z=-10.550), Max=(X=-65.000 Y=-266.950 Z=15.550) RuntimeBounds:IsValid=true, Min=(X=-93.050 Y=-293.050 Z=-10.550), Max=(X=-65.000 Y=-266.950 Z=15.550) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:B0F872394384A448C6279BA4B2455FCF BaseClass:/Game/Resources/BerryResource.BerryResource_C NativeClass:/Script/ProjectSurvive.Resource_M Name:BerryResource_C_UAID_107C6121B4FEFC7302_1144283304 Label:BerryResource3 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=35.233 Y=-754.767 Z=-14.767), Max=(X=160.000 Y=-645.233 Z=94.767) RuntimeBounds:IsValid=true, Min=(X=35.233 Y=-754.767 Z=-14.767), Max=(X=160.000 Y=-645.233 Z=94.767) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:C5C3A87647C2002BA9BC13A574E8065E BaseClass:/Game/Resources/StoneResource.StoneResource_C NativeClass:/Script/ProjectSurvive.Resource_M Name:StoneResource_C_UAID_107C6121B4FEFB7302_1994149118 Label:StoneResource4 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-233.050 Y=-293.050 Z=-10.550), Max=(X=-205.000 Y=-266.950 Z=15.550) RuntimeBounds:IsValid=true, Min=(X=-233.050 Y=-293.050 Z=-10.550), Max=(X=-205.000 Y=-266.950 Z=15.550) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:DA08C8434DA4B54E03ED9C8B716DF633 BaseClass:/Game/Resources/WoodResource.WoodResource_C NativeClass:/Script/ProjectSurvive.Resource_M Name:WoodResource_C_UAID_107C6121B4FEFC7302_1320578309 Label:WoodResource5 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-789.282 Y=470.718 Z=-70.000), Max=(X=-610.718 Y=659.282 Z=640.000) RuntimeBounds:IsValid=true, Min=(X=-789.282 Y=470.718 Z=-70.000), Max=(X=-610.718 Y=659.282 Z=640.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:EDBEB0ED4A71477690D76C912DD7548E BaseClass:/Game/Resources/StoneResource.StoneResource_C NativeClass:/Script/ProjectSurvive.Resource_M Name:StoneResource_C_UAID_107C6121B4FEFC7302_1109487302 Label:StoneResource10 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-43.050 Y=-133.050 Z=-10.550), Max=(X=-15.000 Y=-106.950 Z=15.550) RuntimeBounds:IsValid=true, Min=(X=-43.050 Y=-133.050 Z=-10.550), Max=(X=-15.000 Y=-106.950 Z=15.550) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:EFCCACD64699E842A040B894585F3FF8 BaseClass:/Game/Resources/StoneResource.StoneResource_C NativeClass:/Script/ProjectSurvive.Resource_M Name:StoneResource_C_UAID_107C6121B4FEFC7302_1102208298 Label:StoneResource6 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-93.050 Y=-93.050 Z=-10.550), Max=(X=-65.000 Y=-66.950 Z=15.550) RuntimeBounds:IsValid=true, Min=(X=-93.050 Y=-93.050 Z=-10.550), Max=(X=-65.000 Y=-66.950 Z=15.550) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:F00972984F359B1BC2D4AE9EE2F89AD7 BaseClass:/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Weather.Ultra_Dynamic_Weather_C NativeClass:/Script/Engine.Actor Name:Ultra_Dynamic_Weather_C_UAID_107C6121B4FE4B6B02_1242171695 Label:Ultra_Dynamic_Weather SpatiallyLoaded:false EditorBounds:IsValid=true, Min=(X=-4398046511104.000 Y=-4398046511104.000 Z=-4398046511104.000), Max=(X=4398046511104.000 Y=4398046511104.000 Z=4398046511104.000) RuntimeBounds:IsValid=true, Min=(X=-256.000 Y=-256.000 Z=354.000), Max=(X=256.000 Y=256.000 Z=866.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:F2F7F19646C225C9B01E8EB4ECAFF445 BaseClass:/Game/Resources/WoodResource.WoodResource_C NativeClass:/Script/ProjectSurvive.Resource_M Name:WoodResource_C_UAID_107C6121B4FEFB7302_1984071114 Label:WoodResource3 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-1149.282 Y=260.718 Z=-70.000), Max=(X=-970.718 Y=449.282 Z=640.000) RuntimeBounds:IsValid=true, Min=(X=-1149.282 Y=260.718 Z=-70.000), Max=(X=-970.718 Y=449.282 Z=640.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |- [+] Clusters:
+ |   |   |- [+] [  0]
+ |   |   |   |- Guid:02ECB59D487AA691668EE2A12A33D936 NativeClass:/Script/NavigationSystem.RecastNavMesh Name:RecastNavMesh_UAID_107C6121B4FEAC6E02-Default Label:RecastNavMesh-Default SpatiallyLoaded:false EditorBounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeBounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [  1]
+ |   |   |   |- Guid:0F3D0794454545E4EA68DDBA12F7FDB9 NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_107C6121B4FE6D6B02_1671290673 Label:Box SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-260.000 Y=630.000 Z=-10.000), Max=(X=-260.000 Y=630.000 Z=-10.000) RuntimeBounds:IsValid=true, Min=(X=-260.000 Y=630.000 Z=-10.000), Max=(X=-260.000 Y=630.000 Z=-10.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [  2]
+ |   |   |   |- Guid:160ECC5448A79D30FA6A8F935A02D556 NativeClass:/Script/Engine.PlayerStart Name:PlayerStart_UAID_107C6121B4FEAD6A02_1935925879 Label:PlayerStart SpatiallyLoaded:false EditorBounds:IsValid=true, Min=(X=-8.000 Y=182.000 Z=-46.000), Max=(X=360.000 Y=438.000 Z=210.000) RuntimeBounds:IsValid=true, Min=(X=80.000 Y=270.000 Z=-10.000), Max=(X=160.000 Y=350.000 Z=174.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [  3]
+ |   |   |   |- Guid:17F481DD4D638D25CCE480B12F514DD7 NativeClass:/Script/Engine.WorldPartitionHLOD Name:DevMap_HLOD0_Instancing_00000000356a0585 Label:DevMap_HLOD0_Instancing/DevMap_MainGrid_L0_X-1_Y-1_Z0 SpatiallyLoaded:false EditorBounds:IsValid=true, Min=(X=-335.000 Y=-65.000 Z=0.000), Max=(X=-285.000 Y=-15.000 Z=200.000) RuntimeBounds:IsValid=true, Min=(X=-335.000 Y=-65.000 Z=0.000), Max=(X=-285.000 Y=-15.000 Z=200.000) RuntimeGrid:MainGrid:PersistentLevel EditorOnly:false RuntimeOnly:true HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false FolderPath:HLOD/DevMap_HLOD0_Instancing FolderGuid:8E06AA4D4FD0FCED6C90A0BA6D39F835
+ |   |   |- [+] [  4]
+ |   |   |   |- Guid:1C2F39AE4825C0B3703B2CB66FD1ABA9 BaseClass:/Game/AI/AIChar.AIChar_C NativeClass:/Script/Engine.Character Name:AIChar_C_UAID_107C6121B4FEAD6E02_1178063106 Label:AIChar2 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-454.000 Y=-670.000 Z=-10.967), Max=(X=-180.000 Y=-510.000 Z=167.514) RuntimeBounds:IsValid=true, Min=(X=-454.000 Y=-624.000 Z=-10.967), Max=(X=-386.000 Y=-556.000 Z=167.514) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [  5]
+ |   |   |   |- Guid:218E3B124735712D7EF272B4FB8E7FF6 NativeClass:/Script/Landscape.Landscape Name:Landscape_UAID_A85E45CFE404FBD100_1221515703 Label:Landscape SpatiallyLoaded:false EditorBounds:IsValid=true, Min=(X=-100800.000 Y=-100800.000 Z=100.000), Max=(X=-100800.000 Y=-100800.000 Z=100.000) RuntimeBounds:IsValid=true, Min=(X=-100800.000 Y=-100800.000 Z=100.000), Max=(X=-100800.000 Y=-100800.000 Z=100.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [  6]
+ |   |   |   |- Guid:253E3C8C41EE5C8EE0A9E3AAB5D8817A BaseClass:/Game/Resources/StoneResource.StoneResource_C NativeClass:/Script/ProjectSurvive.Resource_M Name:StoneResource_C_UAID_107C6121B4FEFC7302_1107627301 Label:StoneResource9 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-43.050 Y=-203.050 Z=-10.550), Max=(X=-15.000 Y=-176.950 Z=15.550) RuntimeBounds:IsValid=true, Min=(X=-43.050 Y=-203.050 Z=-10.550), Max=(X=-15.000 Y=-176.950 Z=15.550) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [  7]
+ |   |   |   |- Guid:45168D604BCD9C6422B065AA4673B00F BaseClass:/Game/Resources/StoneResource.StoneResource_C NativeClass:/Script/ProjectSurvive.Resource_M Name:StoneResource_C_UAID_107C6121B4FEFC7302_1103226299 Label:StoneResource7 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-143.050 Y=-93.050 Z=-10.550), Max=(X=-115.000 Y=-66.950 Z=15.550) RuntimeBounds:IsValid=true, Min=(X=-143.050 Y=-93.050 Z=-10.550), Max=(X=-115.000 Y=-66.950 Z=15.550) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [  8]
+ |   |   |   |- Guid:45A38C67420647478DC9DDBFCC52D2C3 BaseClass:/Game/Resources/StoneResource.StoneResource_C NativeClass:/Script/ProjectSurvive.Resource_M Name:StoneResource_C_UAID_107C6121B4FEFC7302_1106033300 Label:StoneResource8 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-143.050 Y=-203.050 Z=-10.550), Max=(X=-115.000 Y=-176.950 Z=15.550) RuntimeBounds:IsValid=true, Min=(X=-143.050 Y=-203.050 Z=-10.550), Max=(X=-115.000 Y=-176.950 Z=15.550) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [  9]
+ |   |   |   |- Guid:495FA14247B4756A851810A46D577006 BaseClass:/Game/Resources/BerryResource.BerryResource_C NativeClass:/Script/ProjectSurvive.Resource_M Name:BerryResource_C_UAID_107C6121B4FEFB7302_2140948120 Label:BerryResource SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-144.767 Y=-1044.767 Z=-14.767), Max=(X=-20.000 Y=-935.233 Z=94.767) RuntimeBounds:IsValid=true, Min=(X=-144.767 Y=-1044.767 Z=-14.767), Max=(X=-20.000 Y=-935.233 Z=94.767) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [ 10]
+ |   |   |   |- Guid:5368FABB47D6D9580DAECA8B0417BF92 NativeClass:/Script/Engine.WorldDataLayers Name:WorldDataLayers Label:WorldDataLayers-1 SpatiallyLoaded:false EditorBounds:IsValid=false, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeBounds:IsValid=false, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:true
+ |   |   |- [+] [ 11]
+ |   |   |   |- Guid:60ED7F524A735ECDC62FD69963DAB429 BaseClass:/Game/Resources/WoodResource.WoodResource_C NativeClass:/Script/ProjectSurvive.Resource_M Name:WoodResource_C_UAID_107C6121B4FEFC7302_1323033311 Label:WoodResource7 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-579.282 Y=-79.282 Z=-70.000), Max=(X=-400.718 Y=109.282 Z=640.000) RuntimeBounds:IsValid=true, Min=(X=-579.282 Y=-79.282 Z=-70.000), Max=(X=-400.718 Y=109.282 Z=640.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [ 12]
+ |   |   |   |- Guid:62A3D73F45EF282807D39BB4F85F1D9E NativeClass:/Script/Engine.WorldPartitionHLOD Name:DevMap_HLOD0_Instancing_000000000ad5eacd Label:DevMap_HLOD0_Instancing/DevMap_MainGrid_L0_X0_Y0_Z-1 SpatiallyLoaded:false EditorBounds:IsValid=true, Min=(X=-1000.000 Y=-1000.000 Z=-10.000), Max=(X=1000.000 Y=1000.000 Z=-10.000) RuntimeBounds:IsValid=true, Min=(X=-1000.000 Y=-1000.000 Z=-10.000), Max=(X=1000.000 Y=1000.000 Z=-10.000) RuntimeGrid:MainGrid:PersistentLevel EditorOnly:false RuntimeOnly:true HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false FolderPath:HLOD/DevMap_HLOD0_Instancing FolderGuid:8E06AA4D4FD0FCED6C90A0BA6D39F835
+ |   |   |- [+] [ 13]
+ |   |   |   |- Guid:6C1906FC48165393DA4884BF102AABAA BaseClass:/Game/Resources/BerryResource.BerryResource_C NativeClass:/Script/ProjectSurvive.Resource_M Name:BerryResource_C_UAID_107C6121B4FEFC7302_1142223303 Label:BerryResource2 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-144.767 Y=-754.767 Z=-14.767), Max=(X=-20.000 Y=-645.233 Z=94.767) RuntimeBounds:IsValid=true, Min=(X=-144.767 Y=-754.767 Z=-14.767), Max=(X=-20.000 Y=-645.233 Z=94.767) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [ 14]
+ |   |   |   |- Guid:70D8A4B646A8FD4EC8E1D18D6182BD26 BaseClass:/Game/AI/AIChar.AIChar_C NativeClass:/Script/Engine.Character Name:AIChar_C_UAID_107C6121B4FEAD6E02_1181089107 Label:AIChar3 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=1306.000 Y=-1230.000 Z=-10.967), Max=(X=1580.000 Y=-1070.000 Z=167.514) RuntimeBounds:IsValid=true, Min=(X=1306.000 Y=-1184.000 Z=-10.967), Max=(X=1374.000 Y=-1116.000 Z=167.514) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [ 15]
+ |   |   |   |- Guid:71080F71431E55D6C373BDA6015DF930 BaseClass:/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky.Ultra_Dynamic_Sky_C NativeClass:/Script/Engine.Actor Name:Ultra_Dynamic_Sky_C_UAID_107C6121B4FE4B6B02_1235737694 Label:Ultra_Dynamic_Sky SpatiallyLoaded:false EditorBounds:IsValid=true, Min=(X=-4398046511104.000 Y=-4398046511104.000 Z=-4398046511104.000), Max=(X=4398046511104.000 Y=4398046511104.000 Z=4398046511104.000) RuntimeBounds:IsValid=true, Min=(X=-9369290625.000 Y=-9369288437.500 Z=-10538806757.500), Max=(X=9369286875.000 Y=9369286562.500 Z=9390708242.500) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [ 16]
+ |   |   |   |- Guid:726978B045BC263FE9C595A88E4F2918 BaseClass:/Game/Resources/WoodResource.WoodResource_C NativeClass:/Script/ProjectSurvive.Resource_M Name:WoodResource_C_UAID_107C6121B4FEFC7302_1319225308 Label:WoodResource4 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-789.282 Y=260.718 Z=-70.000), Max=(X=-610.718 Y=449.282 Z=640.000) RuntimeBounds:IsValid=true, Min=(X=-789.282 Y=260.718 Z=-70.000), Max=(X=-610.718 Y=449.282 Z=640.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [ 17]
+ |   |   |   |- Guid:733FBBC341394037B61F439119598933 BaseClass:/Game/Resources/WoodResource.WoodResource_C NativeClass:/Script/ProjectSurvive.Resource_M Name:WoodResource_C_UAID_107C6121B4FEFC7302_1321589310 Label:WoodResource6 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-579.282 Y=470.718 Z=-70.000), Max=(X=-400.718 Y=659.282 Z=640.000) RuntimeBounds:IsValid=true, Min=(X=-579.282 Y=470.718 Z=-70.000), Max=(X=-400.718 Y=659.282 Z=640.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [ 18]
+ |   |   |   |- Guid:75AC464A48173ED8928217B46B4E214E BaseClass:/Game/AI/AIChar.AIChar_C NativeClass:/Script/Engine.Character Name:AIChar_C_UAID_107C6121B4FEAD6E02_1173416105 Label:AIChar SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-244.000 Y=1270.000 Z=-10.967), Max=(X=30.000 Y=1430.000 Z=167.514) RuntimeBounds:IsValid=true, Min=(X=-244.000 Y=1316.000 Z=-10.967), Max=(X=-176.000 Y=1384.000 Z=167.514) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [ 19]
+ |   |   |   |- Guid:7CF0511749FBBF15FCEAD8B1DB3D396B BaseClass:/Game/Resources/BerryResource.BerryResource_C NativeClass:/Script/ProjectSurvive.Resource_M Name:BerryResource_C_UAID_107C6121B4FEFC7302_1148376305 Label:BerryResource4 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=35.233 Y=-904.767 Z=-14.767), Max=(X=160.000 Y=-795.233 Z=94.767) RuntimeBounds:IsValid=true, Min=(X=35.233 Y=-904.767 Z=-14.767), Max=(X=160.000 Y=-795.233 Z=94.767) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [ 20]
+ |   |   |   |- Guid:8532B76A43AD28EC840A779B5D63E687 NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_107C6121B4FE076702_1102368495 Label:Plane SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-2000.000 Y=-2000.000 Z=-10.000), Max=(X=2000.000 Y=2000.000 Z=-10.000) RuntimeBounds:IsValid=true, Min=(X=-2000.000 Y=-2000.000 Z=-10.000), Max=(X=2000.000 Y=2000.000 Z=-10.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [ 21]
+ |   |   |   |- Guid:95C7FD504AA889B0802BAEAD12A9B777 BaseClass:/Game/Resources/BerryResource.BerryResource_C NativeClass:/Script/ProjectSurvive.Resource_M Name:BerryResource_C_UAID_107C6121B4FEFC7302_1150262306 Label:BerryResource5 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=185.233 Y=-904.767 Z=-14.767), Max=(X=310.000 Y=-795.233 Z=94.767) RuntimeBounds:IsValid=true, Min=(X=185.233 Y=-904.767 Z=-14.767), Max=(X=310.000 Y=-795.233 Z=94.767) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [ 22]
+ |   |   |   |- Guid:9F36F902453DE2D7B35CE3A5843D9E88 BaseClass:/Game/Resources/StoneResource.StoneResource_C NativeClass:/Script/ProjectSurvive.Resource_M Name:StoneResource_C_UAID_107C6121B4FEFC7302_1100847297 Label:StoneResource5 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-93.050 Y=-293.050 Z=-10.550), Max=(X=-65.000 Y=-266.950 Z=15.550) RuntimeBounds:IsValid=true, Min=(X=-93.050 Y=-293.050 Z=-10.550), Max=(X=-65.000 Y=-266.950 Z=15.550) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [ 23]
+ |   |   |   |- Guid:B0F872394384A448C6279BA4B2455FCF BaseClass:/Game/Resources/BerryResource.BerryResource_C NativeClass:/Script/ProjectSurvive.Resource_M Name:BerryResource_C_UAID_107C6121B4FEFC7302_1144283304 Label:BerryResource3 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=35.233 Y=-754.767 Z=-14.767), Max=(X=160.000 Y=-645.233 Z=94.767) RuntimeBounds:IsValid=true, Min=(X=35.233 Y=-754.767 Z=-14.767), Max=(X=160.000 Y=-645.233 Z=94.767) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [ 24]
+ |   |   |   |- Guid:C5C3A87647C2002BA9BC13A574E8065E BaseClass:/Game/Resources/StoneResource.StoneResource_C NativeClass:/Script/ProjectSurvive.Resource_M Name:StoneResource_C_UAID_107C6121B4FEFB7302_1994149118 Label:StoneResource4 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-233.050 Y=-293.050 Z=-10.550), Max=(X=-205.000 Y=-266.950 Z=15.550) RuntimeBounds:IsValid=true, Min=(X=-233.050 Y=-293.050 Z=-10.550), Max=(X=-205.000 Y=-266.950 Z=15.550) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [ 25]
+ |   |   |   |- Guid:DA08C8434DA4B54E03ED9C8B716DF633 BaseClass:/Game/Resources/WoodResource.WoodResource_C NativeClass:/Script/ProjectSurvive.Resource_M Name:WoodResource_C_UAID_107C6121B4FEFC7302_1320578309 Label:WoodResource5 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-789.282 Y=470.718 Z=-70.000), Max=(X=-610.718 Y=659.282 Z=640.000) RuntimeBounds:IsValid=true, Min=(X=-789.282 Y=470.718 Z=-70.000), Max=(X=-610.718 Y=659.282 Z=640.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [ 26]
+ |   |   |   |- Guid:EDBEB0ED4A71477690D76C912DD7548E BaseClass:/Game/Resources/StoneResource.StoneResource_C NativeClass:/Script/ProjectSurvive.Resource_M Name:StoneResource_C_UAID_107C6121B4FEFC7302_1109487302 Label:StoneResource10 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-43.050 Y=-133.050 Z=-10.550), Max=(X=-15.000 Y=-106.950 Z=15.550) RuntimeBounds:IsValid=true, Min=(X=-43.050 Y=-133.050 Z=-10.550), Max=(X=-15.000 Y=-106.950 Z=15.550) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [ 27]
+ |   |   |   |- Guid:EFCCACD64699E842A040B894585F3FF8 BaseClass:/Game/Resources/StoneResource.StoneResource_C NativeClass:/Script/ProjectSurvive.Resource_M Name:StoneResource_C_UAID_107C6121B4FEFC7302_1102208298 Label:StoneResource6 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-93.050 Y=-93.050 Z=-10.550), Max=(X=-65.000 Y=-66.950 Z=15.550) RuntimeBounds:IsValid=true, Min=(X=-93.050 Y=-93.050 Z=-10.550), Max=(X=-65.000 Y=-66.950 Z=15.550) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [ 28]
+ |   |   |   |- Guid:F00972984F359B1BC2D4AE9EE2F89AD7 BaseClass:/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Weather.Ultra_Dynamic_Weather_C NativeClass:/Script/Engine.Actor Name:Ultra_Dynamic_Weather_C_UAID_107C6121B4FE4B6B02_1242171695 Label:Ultra_Dynamic_Weather SpatiallyLoaded:false EditorBounds:IsValid=true, Min=(X=-4398046511104.000 Y=-4398046511104.000 Z=-4398046511104.000), Max=(X=4398046511104.000 Y=4398046511104.000 Z=4398046511104.000) RuntimeBounds:IsValid=true, Min=(X=-256.000 Y=-256.000 Z=354.000), Max=(X=256.000 Y=256.000 Z=866.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [ 29]
+ |   |   |   |- Guid:F2F7F19646C225C9B01E8EB4ECAFF445 BaseClass:/Game/Resources/WoodResource.WoodResource_C NativeClass:/Script/ProjectSurvive.Resource_M Name:WoodResource_C_UAID_107C6121B4FEFB7302_1984071114 Label:WoodResource3 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-1149.282 Y=260.718 Z=-70.000), Max=(X=-970.718 Y=449.282 Z=640.000) RuntimeBounds:IsValid=true, Min=(X=-1149.282 Y=260.718 Z=-70.000), Max=(X=-970.718 Y=449.282 Z=640.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |- ContainerInstances:
+ |- [+] MainContainer:
+ |   |-        ID: 00000000000000000000000000000000
+ |   |-  ParentID: 00000000000000000000000000000000
+ |   |-    Bounds: IsValid=true, Min=(X=-2000.000 Y=-2000.000 Z=-70.000), Max=(X=2000.000 Y=2000.000 Z=640.000)
+ |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |   |- Container: /Game/DevMap
+----------------------------------------------------------------------------------------------------------------
+DevMap - Persistent Level
+----------------------------------------------------------------------------------------------------------------
+[+] Content of DevMap Persistent Level
+ |- Always loaded Actor Count: 8 
+ |- Actor Path: /Game/DevMap.DevMap:PersistentLevel.DevMap_HLOD0_Instancing_000000000ad5eacd
+ |- Actor Package: /Game/__ExternalActors__/DevMap/0/4I/XBS80NB8NDG79F10JSN1SD
+ |- Actor Path: /Game/DevMap.DevMap:PersistentLevel.DevMap_HLOD0_Instancing_00000000356a0585
+ |- Actor Package: /Game/__ExternalActors__/DevMap/6/P0/WWCSXXL97ZWTGQTMYICMZN
+ |- Actor Path: /Game/DevMap.DevMap:PersistentLevel.Landscape_UAID_A85E45CFE404FBD100_1221515703
+ |- Actor Package: /Game/__ExternalActors__/DevMap/C/Q3/SM6SPOKLEOZSM41OCJ40DF
+ |- Actor Path: /Game/DevMap.DevMap:PersistentLevel.PlayerStart_UAID_107C6121B4FEAD6A02_1935925879
+ |- Actor Package: /Game/__ExternalActors__/DevMap/D/G6/SOB2MOQRK1MSQXZJIY0W0J
+ |- Actor Path: /Game/DevMap.DevMap:PersistentLevel.RecastNavMesh_UAID_107C6121B4FEAC6E02-Default
+ |- Actor Package: /Game/__ExternalActors__/DevMap/0/QT/JUCSEOSNHSMWEVL8276NAV
+ |- Actor Path: /Game/DevMap.DevMap:PersistentLevel.Ultra_Dynamic_Sky_C_UAID_107C6121B4FE4B6B02_1235737694
+ |- Actor Package: /Game/__ExternalActors__/DevMap/5/LM/QXCNEO3QNB1TCJZ11N3D1F
+ |- Actor Path: /Game/DevMap.DevMap:PersistentLevel.Ultra_Dynamic_Weather_C_UAID_107C6121B4FE4B6B02_1242171695
+ |- Actor Package: /Game/__ExternalActors__/DevMap/1/6R/0Z4UD9H3BS6GOSX5JOCO67
+ |- Actor Path: /Game/DevMap.DevMap:PersistentLevel.WorldDataLayers
+ |- Actor Package: /Game/__ExternalActors__/DevMap/3/44/MTSUWT058NDBA94YDPJATN
+
+----------------------------------------------------------------------------------------------------------------
+DevMap - Runtime Hash Set
+----------------------------------------------------------------------------------------------------------------
+[+] Content of Cell DevMap_MainGrid_L0_X-1_Y0_Z-1 (4CJJ4YJR84ESSBTXEOLG4ODQL)
+ |- Actor Count: 1
+ |- Content Bounds: IsValid=true, Min=(X=-260.000 Y=630.000 Z=-10.000), Max=(X=-260.000 Y=630.000 Z=-10.000)
+ |- Cell Bounds: IsValid=true, Min=(X=-25200.000 Y=0.000 Z=-25200.000), Max=(X=0.000 Y=25200.000 Z=0.000)
+ |- Is 2D: False
+ |- [+] /Game/DevMap.DevMap:PersistentLevel.StaticMeshActor_UAID_107C6121B4FE6D6B02_1671290673
+ |   |-         Package: /Game/__ExternalActors__/DevMap/B/A1/WLC2YPKJUR794XSHBOLI9X
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 0F3D0794454545E4EA68DDBA12F7FDB9
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+[+] Content of Cell DevMap_MainGrid_L0_X0_Y0_Z-1 (54MLBK3YEQWUXG5MIVM289BSO)
+ |- Actor Count: 1
+ |- Content Bounds: IsValid=true, Min=(X=0.000 Y=0.000 Z=-10.000), Max=(X=2000.000 Y=2000.000 Z=-10.000)
+ |- Cell Bounds: IsValid=true, Min=(X=0.000 Y=0.000 Z=-25200.000), Max=(X=25200.000 Y=25200.000 Z=0.000)
+ |- Is 2D: False
+ |- [+] /Game/DevMap.DevMap:PersistentLevel.StaticMeshActor_UAID_107C6121B4FE076702_1102368495
+ |   |-         Package: /Game/__ExternalActors__/DevMap/5/F8/9O6D8KFG57SX8IB1F2WY46
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 8532B76A43AD28EC840A779B5D63E687
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+[+] Content of Cell DevMap_MainGrid_L0_X-1_Y0_Z0 (5LM5X2NV96FCLPRN756L4HEIU)
+ |- Actor Count: 6
+ |- Content Bounds: IsValid=true, Min=(X=-1149.282 Y=0.000 Z=0.000), Max=(X=-176.000 Y=1384.000 Z=640.000)
+ |- Cell Bounds: IsValid=true, Min=(X=-25200.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=25200.000 Z=25200.000)
+ |- Is 2D: False
+ |- [+] /Game/DevMap.DevMap:PersistentLevel.WoodResource_C_UAID_107C6121B4FEFC7302_1323033311
+ |   |-         Package: /Game/__ExternalActors__/DevMap/A/R6/OCLEI9OPR5AAB6M0HC6PHB
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 60ED7F524A735ECDC62FD69963DAB429
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/DevMap.DevMap:PersistentLevel.WoodResource_C_UAID_107C6121B4FEFC7302_1319225308
+ |   |-         Package: /Game/__ExternalActors__/DevMap/B/L5/2U43S3ODII6KAZ2TAWCNVG
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 726978B045BC263FE9C595A88E4F2918
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/DevMap.DevMap:PersistentLevel.WoodResource_C_UAID_107C6121B4FEFC7302_1321589310
+ |   |-         Package: /Game/__ExternalActors__/DevMap/9/RN/MZXMYBLLXILZ75U41OWZRX
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 733FBBC341394037B61F439119598933
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/DevMap.DevMap:PersistentLevel.AIChar_C_UAID_107C6121B4FEAD6E02_1173416105
+ |   |-         Package: /Game/__ExternalActors__/DevMap/1/QN/F9RBNMU28Y4PCI4FJ2ARUP
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 75AC464A48173ED8928217B46B4E214E
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/DevMap.DevMap:PersistentLevel.WoodResource_C_UAID_107C6121B4FEFC7302_1320578309
+ |   |-         Package: /Game/__ExternalActors__/DevMap/D/HA/VQLU2A7PEITGSPE1199RHY
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: DA08C8434DA4B54E03ED9C8B716DF633
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/DevMap.DevMap:PersistentLevel.WoodResource_C_UAID_107C6121B4FEFB7302_1984071114
+ |   |-         Package: /Game/__ExternalActors__/DevMap/2/05/J989V35MT65SQVMNESIY85
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: F2F7F19646C225C9B01E8EB4ECAFF445
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+[+] Content of Cell DevMap_MainGrid_L0_X0_Y-1_Z0 (8D7NJBG49Z6QZA15NTHPZXL8C)
+ |- Actor Count: 4
+ |- Content Bounds: IsValid=true, Min=(X=35.233 Y=-1184.000 Z=0.000), Max=(X=1374.000 Y=-645.233 Z=167.514)
+ |- Cell Bounds: IsValid=true, Min=(X=0.000 Y=-25200.000 Z=0.000), Max=(X=25200.000 Y=0.000 Z=25200.000)
+ |- Is 2D: False
+ |- [+] /Game/DevMap.DevMap:PersistentLevel.AIChar_C_UAID_107C6121B4FEAD6E02_1181089107
+ |   |-         Package: /Game/__ExternalActors__/DevMap/7/6S/K703973OH16JQ8JPR2LK6J
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 70D8A4B646A8FD4EC8E1D18D6182BD26
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/DevMap.DevMap:PersistentLevel.BerryResource_C_UAID_107C6121B4FEFC7302_1148376305
+ |   |-         Package: /Game/__ExternalActors__/DevMap/A/6H/QMJ8W97X1529SAB9HLN20M
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 7CF0511749FBBF15FCEAD8B1DB3D396B
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/DevMap.DevMap:PersistentLevel.BerryResource_C_UAID_107C6121B4FEFC7302_1150262306
+ |   |-         Package: /Game/__ExternalActors__/DevMap/A/90/XLNHFZITB5T2JWPIK7298Q
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 95C7FD504AA889B0802BAEAD12A9B777
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/DevMap.DevMap:PersistentLevel.BerryResource_C_UAID_107C6121B4FEFC7302_1144283304
+ |   |-         Package: /Game/__ExternalActors__/DevMap/8/W2/9QMXVDQ1AEP1K572APEQTE
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: B0F872394384A448C6279BA4B2455FCF
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+[+] Content of Cell DevMap_MainGrid_L0_X-1_Y-1_Z0 (ARC966XCGL0NM7SEGAQKDKYMV)
+ |- Actor Count: 10
+ |- Content Bounds: IsValid=true, Min=(X=-454.000 Y=-1044.767 Z=0.000), Max=(X=-15.000 Y=-66.950 Z=167.514)
+ |- Cell Bounds: IsValid=true, Min=(X=-25200.000 Y=-25200.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=25200.000)
+ |- Is 2D: False
+ |- [+] /Game/DevMap.DevMap:PersistentLevel.AIChar_C_UAID_107C6121B4FEAD6E02_1178063106
+ |   |-         Package: /Game/__ExternalActors__/DevMap/7/NH/MVWXH2AX7DUGAKXEFZHG4T
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 1C2F39AE4825C0B3703B2CB66FD1ABA9
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/DevMap.DevMap:PersistentLevel.StoneResource_C_UAID_107C6121B4FEFC7302_1107627301
+ |   |-         Package: /Game/__ExternalActors__/DevMap/B/1W/LLE8T0SQARPN4RWBUGTEEB
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 253E3C8C41EE5C8EE0A9E3AAB5D8817A
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/DevMap.DevMap:PersistentLevel.StoneResource_C_UAID_107C6121B4FEFC7302_1103226299
+ |   |-         Package: /Game/__ExternalActors__/DevMap/A/F1/EWB8G81EQJP5AHC4U70QJS
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 45168D604BCD9C6422B065AA4673B00F
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/DevMap.DevMap:PersistentLevel.StoneResource_C_UAID_107C6121B4FEFC7302_1106033300
+ |   |-         Package: /Game/__ExternalActors__/DevMap/B/EL/LFRM3HABMKHX752P9VPC1E
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 45A38C67420647478DC9DDBFCC52D2C3
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/DevMap.DevMap:PersistentLevel.BerryResource_C_UAID_107C6121B4FEFB7302_2140948120
+ |   |-         Package: /Game/__ExternalActors__/DevMap/0/21/BRXQC0U85Y26NI3YEQ0NG6
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 495FA14247B4756A851810A46D577006
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/DevMap.DevMap:PersistentLevel.BerryResource_C_UAID_107C6121B4FEFC7302_1142223303
+ |   |-         Package: /Game/__ExternalActors__/DevMap/1/RA/V32ICI4EW771MBXPUT3YBU
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 6C1906FC48165393DA4884BF102AABAA
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/DevMap.DevMap:PersistentLevel.StoneResource_C_UAID_107C6121B4FEFC7302_1100847297
+ |   |-         Package: /Game/__ExternalActors__/DevMap/B/KF/A56JCZ7GTXQP9MH0LWKV45
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 9F36F902453DE2D7B35CE3A5843D9E88
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/DevMap.DevMap:PersistentLevel.StoneResource_C_UAID_107C6121B4FEFB7302_1994149118
+ |   |-         Package: /Game/__ExternalActors__/DevMap/0/FO/63JRUJPMXOEXOH4ZV47P5I
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: C5C3A87647C2002BA9BC13A574E8065E
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/DevMap.DevMap:PersistentLevel.StoneResource_C_UAID_107C6121B4FEFC7302_1109487302
+ |   |-         Package: /Game/__ExternalActors__/DevMap/E/2Y/2KH97SC3OL50LRP60WDFZ3
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: EDBEB0ED4A71477690D76C912DD7548E
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/DevMap.DevMap:PersistentLevel.StoneResource_C_UAID_107C6121B4FEFC7302_1102208298
+ |   |-         Package: /Game/__ExternalActors__/DevMap/0/0F/XR1AHXNQHFJ1Z210HCQZWW
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: EFCCACD64699E842A040B894585F3FF8
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+
